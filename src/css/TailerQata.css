@@ -1,0 +1,271 @@
+/* تنسيقات مكون قطع التيلر - أسماء فريدة */
+
+.tq-main-parts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.tq-part-item {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid #e8e8e8;
+}
+
+.tq-part-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  border-color: #0d47a1;
+}
+
+.tq-part-image-container {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.tq-part-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* تغيير من cover إلى contain */
+  transition: transform 0.5s ease;
+  background-color: white; /* إضافة خلفية بيضاء للمساحات الفارغة */
+}
+
+.tq-part-item:hover .tq-part-image {
+  transform: scale(1.05);
+}
+
+.tq-part-overlay {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+
+
+.tq-part-badge {
+  background: linear-gradient(135deg, #1976D2, #0d47a1);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  box-shadow: 0 3px 10px rgba(76, 175, 80, 0.3);
+}
+
+.tq-part-info {
+  padding: 1.5rem;
+}
+
+.tq-part-title {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.tq-part-description {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.tq-part-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tq-feature-tag {
+  background: #f8f9fa;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #555;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid #eaeaea;
+}
+
+.tq-feature-tag i {
+  color: #4CAF50;
+  font-size: 0.8rem;
+}
+
+.tq-btn-inquiry {
+  background: linear-gradient(135deg, #2196F3, #1976D2);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.tq-btn-inquiry:hover {
+  background: linear-gradient(135deg, #1976D2, #0d47a1);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(33, 150, 243, 0.3);
+}
+
+/* قسم القطع الإضافية */
+.tq-additional-section {
+  margin: 4rem 0;
+  padding: 2rem 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.tq-additional-parts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.tq-additional-part-item {
+  text-align: center;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.tq-additional-part-item:hover {
+  border-color: #2196F3;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.tq-additional-part-image {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 3px solid #f8f9fa;
+}
+
+.tq-additional-part-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tq-additional-part-info h4 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.tq-additional-part-info p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* قسم الميزات */
+.tq-parts-features-section {
+  margin-top: 3rem;
+}
+
+.tq-features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.tq-feature-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.tq-feature-card:hover {
+  background: white;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transform: translateY(-5px);
+}
+
+.tq-feature-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #4CAF50, #45a049);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.tq-feature-content h4 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.3rem;
+}
+
+.tq-feature-content p {
+  color: #666;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* التأثيرات */
+.tq-fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.tq-fade-in.tq-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* تحسينات للجوال */
+@media (max-width: 768px) {
+  .tq-main-parts-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .tq-additional-parts-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .tq-features-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .tq-feature-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .tq-part-image-container {
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tq-additional-parts-grid {
+    grid-template-columns: 1fr;
+  }
+}

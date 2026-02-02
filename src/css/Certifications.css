@@ -1,0 +1,832 @@
+.certifications-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* رأس القسم */
+.section-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 12px;
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, #0066CC, #00A86B);
+  border-radius: 2px;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #0066CC;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.section-description {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-description p {
+  color: #64748b;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* إحصائيات الشهادات */
+.cert-stats {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 40px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 102, 204, 0.1);
+  border-color: var(--cert-color, #0066CC);
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #0066CC, #00A86B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 8px;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.stat-icon {
+  font-size: 2rem;
+  color: #0066CC;
+  margin-bottom: 8px;
+}
+
+/* شبكة الشهادات */
+.certifications-grid {
+  display: grid;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.certificate-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid #e2e8f0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+.certificate-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 102, 204, 0.15);
+  border-color: var(--cert-color);
+}
+
+/* رأس الشهادة */
+.certificate-header {
+  background: linear-gradient(135deg, var(--cert-color) 0%, color-mix(in srgb, var(--cert-color) 70%, black) 100%);
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.certificate-icon {
+  font-size: 32px;
+  opacity: 0.9;
+}
+
+.certificate-title {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.certificate-title h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0 0 4px 0;
+  color: white;
+}
+
+.certificate-type {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+.certificate-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #00FF88;
+}
+
+.certificate-status.valid .status-dot {
+  background: #00FF88;
+  animation: pulse 2s infinite;
+}
+
+.certificate-status.expired .status-dot {
+  background: #FF4444;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* جسم الشهادة */
+.certificate-body {
+  padding: 30px;
+  position: relative;
+}
+
+/* شارة الشهادة */
+.certificate-badge {
+  position: absolute;
+  top: -25px;
+  right: 30px;
+  z-index: 2;
+}
+
+.badge-ribbon {
+  background: var(--cert-color);
+  color: white;
+  padding: 8px 20px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+}
+
+.badge-ribbon::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 10px solid color-mix(in srgb, var(--cert-color) 90%, black);
+}
+
+.badge-content {
+  background: white;
+  border: 2px solid var(--cert-color);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.badge-icon {
+  font-size: 40px;
+  color: var(--cert-color);
+  margin-bottom: 10px;
+}
+
+.badge-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.badge-title {
+  font-size: 0.9rem;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.badge-number {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--cert-color);
+}
+
+/* محتوى الشهادة */
+.certificate-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.certificate-statement {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 30px;
+}
+
+.certificate-statement p {
+  color: #64748b;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 0 0 15px 0;
+}
+
+.company-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 15px 0;
+  padding: 10px;
+  background: linear-gradient(135deg, var(--cert-color) 15%, transparent 15%);
+}
+
+.company-address {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.standard-name {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--cert-color);
+  margin: 15px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.certificate-scope {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 20px auto;
+  padding: 15px;
+  background: #f8fafc;
+  border-left: 4px solid var(--cert-color);
+  border-radius: 0 8px 8px 0;
+  max-width: 600px;
+}
+
+/* تفاصيل الشهادة */
+.certificate-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+  padding: 25px;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.detail-row:last-child {
+  border-bottom: none;
+}
+
+.detail-label {
+  font-size: 0.9rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.detail-value {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+/* مصدر الاعتماد */
+.certificate-accreditation {
+  text-align: center;
+  margin: 30px 0;
+  padding: 20px;
+  background: #f1f5f9;
+  border-radius: 10px;
+}
+
+.accreditation-logo {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #0066CC;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.accreditation-full {
+  display: block;
+  font-size: 0.9rem;
+  color: #64748b;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+/* مؤشر الصلاحية */
+.validity-indicator {
+  margin-top: 30px;
+}
+
+.validity-bar {
+  width: 100%;
+  height: 8px;
+  background: #e2e8f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.validity-progress {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.6s ease;
+}
+
+.validity-text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+/* تذييل الشهادة */
+.certificate-footer {
+  padding: 20px 30px;
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.issuer-address,
+.issuer-phone {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #64748b;
+}
+
+.issuer-address i,
+.issuer-phone i {
+  color: var(--cert-color);
+}
+
+.footer-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.download-btn,
+.verify-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.download-btn {
+  background: var(--cert-color);
+  color: white;
+  border: none;
+}
+
+.download-btn:hover {
+  background: color-mix(in srgb, var(--cert-color) 90%, black);
+  transform: translateY(-2px);
+}
+
+.verify-btn {
+  background: white;
+  color: var(--cert-color);
+  border: 2px solid var(--cert-color);
+}
+
+.verify-btn:hover {
+  background: var(--cert-color);
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* قسم الاعتمادات الإضافية */
+.accreditations-section {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.accreditations-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.accreditations-header h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 12px;
+}
+
+.accreditations-header p {
+  color: #64748b;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.accreditations-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.accreditation-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  transition: transform 0.3s ease;
+}
+
+.accreditation-item:hover {
+  transform: translateY(-5px);
+}
+
+.accreditation-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #0066CC;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.accreditation-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+/* تأثيرات الظهور */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* تصميم متجاوب */
+@media (max-width: 1024px) {
+  .certifications-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .certificate-badge {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .certifications-section {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .certificate-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  
+  .certificate-title {
+    margin: 0;
+  }
+  
+  .certificate-footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-info {
+    text-align: center;
+  }
+  
+  .accreditations-grid {
+    gap: 30px;
+  }
+  
+  .accreditation-logo {
+    width: 70px;
+    height: 70px;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .certifications-section {
+    padding: 40px 0;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .section-description p {
+    font-size: 0.9rem;
+  }
+  
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .certificate-details {
+    grid-template-columns: 1fr;
+  }
+  
+  .accreditations-section {
+    padding: 30px 20px;
+  }
+  
+  .accreditations-grid {
+    gap: 20px;
+  }
+  
+  .accreditation-logo {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+  }
+}
+
+/* دعم اللغة العربية */
+[dir="rtl"] .section-title::after {
+  left: auto;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+[dir="rtl"] .certificate-badge {
+  right: auto;
+  left: 30px;
+}
+
+[dir="rtl"] .badge-ribbon::after {
+  right: auto;
+  left: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+
+[dir="rtl"] .certificate-scope {
+  border-left: none;
+  border-right: 4px solid var(--cert-color);
+  border-radius: 8px 0 0 8px;
+}
+
+[dir="rtl"] .issuer-address i,
+[dir="rtl"] .issuer-phone i {
+  margin-right: 0;
+  margin-left: 8px;
+}
+
+/* تحسينات الخطوط */
+[lang="ar"] {
+  font-family: 'Cairo', 'Segoe UI', sans-serif;
+}
+
+[lang="en"] {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+
+/* Certifications Header Image */
+.certifications-header-image {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.cert-img {
+  width: 100%;
+  max-width: 800px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cert-img {
+    height: 200px;
+  }
+}
+
+/* Animation for the image */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.certifications-images-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.cert-image-item {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cert-grid-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.cert-image-item:hover .cert-grid-img {
+  transform: scale(1.05);
+}
+
+.cert-image-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .certifications-images-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.certifications-header-image img {
+  /* Mobile First Approach - Default for smallest screens */
+  width: 100%;
+  max-width: 25rem; /* Maximum width on larger screens */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure image covers the area properly */
+  border-radius: 8px; /* Optional: for rounded corners */
+  
+  /* Center the image */
+  display: block;
+  margin: 0 auto;
+}
+
+/* Tablet screens (768px and up) */
+@media (min-width: 768px) {
+  .certifications-header-image img {
+    max-width: 30rem; /* Slightly larger on tablets */
+    height: auto;
+  }
+}
+
+/* Desktop screens (1024px and up) */
+@media (min-width: 1024px) {
+  .certifications-header-image img {
+    max-width: 25rem; /* Back to 25rem on desktop */
+    height: 30rem; /* Fixed height on desktop */
+    object-fit: cover; /* Cover the area without distortion */
+  }
+}
+
+/* Large desktop screens (1200px and up) */
+@media (min-width: 1200px) {
+  .certifications-header-image img {
+    max-width: 28rem; /* Slightly larger on very large screens */
+    height: 33rem;
+  }
+}
+
+/* Extra large screens (1600px and up) */
+@media (min-width: 1600px) {
+  .certifications-header-image img {
+    max-width: 30rem;
+    height: 35rem;
+  }
+}
+
+/* Small mobile screens (less than 480px) */
+@media (max-width: 480px) {
+  .certifications-header-image img {
+    width: 90%; /* Slightly smaller on very small screens */
+    max-width: 20rem;
+    height: auto;
+    margin: 0 auto;
+  }
+}

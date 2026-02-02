@@ -1,0 +1,205 @@
+/* تحسينات للغة الإنجليزية */
+[dir="ltr"] {
+  font-family: 'Almarai', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+[dir="rtl"] {
+  font-family: 'Almarai', 'Reem Kufi', 'Noto Naskh Arabic', sans-serif;
+}
+
+/* تعديلات للأزرار بناءً على الاتجاه */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn i {
+  font-size: 1.1em;
+}
+
+[dir="rtl"] .btn {
+  flex-direction: row-reverse;
+}
+
+[dir="ltr"] .btn {
+  flex-direction: row;
+}
+
+/* تحسينات للقوائم */
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+[dir="rtl"] .nav-links {
+  margin-right: auto;
+}
+
+[dir="ltr"] .nav-links {
+  margin-left: auto;
+}
+
+/* تحسينات للبطاقات */
+.feature-card,
+.product-card,
+.value-card,
+.sector-card {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+[dir="rtl"] .feature-card,
+[dir="rtl"] .product-card,
+[dir="rtl"] .value-card,
+[dir="rtl"] .sector-card {
+  text-align: right;
+}
+
+[dir="ltr"] .feature-card,
+[dir="ltr"] .product-card,
+[dir="ltr"] .value-card,
+[dir="ltr"] .sector-card {
+  text-align: left;
+}
+
+/* تحسينات للفوتر */
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+
+@media (max-width: 1024px) {
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* تحسينات للخطوط بناءً على اللغة */
+[lang="ar"] h1, [lang="ar"] h2, [lang="ar"] h3 {
+  font-family: 'Reem Kufi', 'Noto Naskh Arabic', sans-serif;
+}
+
+[lang="en"] h1, [lang="en"] h2, [lang="en"] h3 {
+  font-family: 'Almarai', 'Segoe UI', sans-serif;
+}
+
+/* تحسينات للتدرج اللوني */
+.text-gradient {
+  background: linear-gradient(45deg, #1e3a8a, #059669);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* تحسينات للصور */
+.image-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1e3a8a, #059669);
+  border-radius: 12px;
+  padding: 3rem;
+  position: relative;
+}
+
+
+
+
+
+
+/* ترس */
+/* =========================================
+   تنسيق الترس الخلفي المتجاوب (Responsive)
+   ========================================= */
+
+/* 1. العنوان الحاوي */
+.animated-gear-title {
+  position: relative;
+  z-index: 1; /* لضمان أن النص يظهر فوق الترس */
+  display: inline-block; /* ليلتف حول المحتوى */
+  /* إضافة هوامش لضمان عدم تداخل الترس مع النصوص المجاورة */
+  margin: 0.5em 0; 
+  padding: 1rem; /* مسافة أمان داخلية */
+}
+
+/* 2. الترس المتحرك (العنصر الزائف) */
+.animated-gear-title::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* 
+     السر في التجاوب: استخدام وحدة em
+     العرض = 12 * حجم خط العنوان
+     إذا كان الخط 40px -> الترس يكون 480px
+     إذا كان الخط 20px -> الترس يكون 240px
+  */
+  width: 7rem; 
+  height: 7rem;
+  
+  /* توسيط الترس حول النص تماماً */
+  transform: translate(-50%, -50%);
+  
+  /* صورة الترس */
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='%23475569' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10.5355 2.1005C10.8856 2.03433 11.2457 2 11.6154 2H12.3846C12.7543 2 13.1144 2.03433 13.4645 2.1005L14.1929 4.28551C14.7867 4.43136 15.3544 4.64577 15.8874 4.9225L17.9375 3.90499C18.2253 3.76121 18.5323 3.65316 18.8502 3.58068L19.4116 4.19293C19.4583 4.24354 19.5032 4.29552 19.5465 4.34878L17.9123 6.10648C18.2815 6.54598 18.5978 7.03112 18.8507 7.55181L21.1273 7.27132C21.4343 7.63979 21.6948 8.04558 21.9014 8.48135L20.3217 10.2895C20.4371 10.8363 20.5 11.4061 20.5 12C20.5 12.5939 20.4371 13.1637 20.3217 13.7105L21.9014 15.5187C21.6948 15.9544 21.4343 16.3602 21.1273 16.7287L18.8507 16.4482C18.5978 16.9689 18.2815 17.454 17.9123 17.8935L19.5465 19.6512C19.5032 19.7045 19.4583 19.7565 19.4116 19.8071L18.8502 20.4193C18.5323 20.3468 18.2253 20.2388 17.9375 20.095L15.8874 19.0775C15.3544 19.3542 14.7867 19.5686 14.1929 19.7145L13.4645 21.8995C13.1144 21.9657 12.7543 22 12.3846 22H11.6154C11.2457 22 10.8856 21.9657 10.5355 21.8995L9.80713 19.7145C9.21327 19.5686 8.64556 19.3542 8.11264 19.0775L6.06251 20.095C5.77469 20.2388 5.46769 20.3468 5.14979 20.4193L4.58841 19.8071C4.54169 19.7565 4.49679 19.7045 4.45352 19.6512L6.08774 17.8935C5.71853 17.454 5.40216 16.9689 5.14931 16.4482L2.87267 16.7287C2.56571 16.3602 2.30521 15.9544 2.09864 15.5187L3.67832 13.7105C3.56288 13.1637 3.5 12.5939 3.5 12C3.5 11.4061 3.56288 10.8363 3.67832 10.2895L2.09864 8.48135C2.30521 8.04558 2.56571 7.63979 2.87267 7.27132L5.14931 7.55181C5.40216 7.03112 5.71853 6.54598 6.08774 6.10648L4.45352 4.34878C4.49679 4.29552 4.54169 4.24354 4.58841 4.19293L5.14979 3.58068C5.46769 3.65316 5.77469 3.76121 6.06251 3.90499L8.11264 4.9225C8.64556 4.64577 9.21327 4.43136 9.80713 4.28551L10.5355 2.1005ZM12 10C10.8954 10 10 10.8954 10 12C10 13.1046 10.8954 14 12 14C13.1046 14 14 13.1046 14 12C14 10.8954 13.1046 10 12 10Z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; /* الترس سيأخذ حجم العرض والارتفاع المحدد */
+  
+  opacity: 0.08; /* شفافية خفيفة جداً */
+  z-index: -1; /* في الخلفية */
+  pointer-events: none;
+  
+  /* الحركة */
+  animation: rotate-gear-bg 20s linear infinite;
+}
+
+/* 3. أنيميشن الدوران */
+@keyframes rotate-gear-bg {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* =========================================
+   تعديلات خاصة للشاشات الصغيرة جداً
+   (اختياري لتقليل الحجم قليلاً في الموبايل)
+   ========================================= */
+@media (max-width: 768px) {
+  .animated-gear-title::before {
+    /* تقليل حجم الترس قليلاً على الشاشات الصغيرة ليكون متناسقاً مع النص */
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+
+
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

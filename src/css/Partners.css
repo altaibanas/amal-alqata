@@ -1,0 +1,318 @@
+/* Partners.css */
+
+.partners-simple {
+  width: 100%;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+  font-family: system-ui, -apple-system, sans-serif;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.partners-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+/* العنوان الرئيسي */
+.main-title {
+  font-size: 42px;
+  font-weight: 800;
+  color: #1e293b;
+  margin-bottom: 16px;
+  text-align: center;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+}
+
+.main-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+  margin: 16px auto;
+  border-radius: 2px;
+}
+
+/* الوصف */
+.description {
+  font-size: 20px;
+  color: #475569;
+  line-height: 1.6;
+  margin-bottom: 50px;
+  text-align: center;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  font-weight: 500;
+}
+
+/* حاوية الشركاء */
+.partners-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 30px 0;
+  margin: 40px 0;
+}
+
+/* مسار الشركاء */
+.partners-track {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 20px 0;
+}
+
+/* إضافة تدرج خفيف على الجوانب للشاشات الصغيرة */
+.partners-wrapper::before,
+.partners-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 80px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+[dir="ltr"] .partners-wrapper::before {
+  left: 0;
+  background: linear-gradient(to right, rgba(248, 250, 252, 1), rgba(248, 250, 252, 0));
+}
+
+[dir="ltr"] .partners-wrapper::after {
+  right: 0;
+  background: linear-gradient(to left, rgba(248, 250, 252, 1), rgba(248, 250, 252, 0));
+}
+
+[dir="rtl"] .partners-wrapper::before {
+  right: 0;
+  left: auto;
+  background: linear-gradient(to left, rgba(248, 250, 252, 1), rgba(248, 250, 252, 0));
+}
+
+[dir="rtl"] .partners-wrapper::after {
+  left: 0;
+  right: auto;
+  background: linear-gradient(to right, rgba(248, 250, 252, 1), rgba(248, 250, 252, 0));
+}
+
+/* إخفاء التدرج في الشاشات الكبيرة */
+@media (min-width: 768px) {
+  .partners-wrapper::before,
+  .partners-wrapper::after {
+    display: none;
+  }
+}
+
+/* حركة أبطأ للغة الإنجليزية (LTR) */
+@keyframes scrollInfiniteLTR {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-200px * 4 * 3 - 40px * (4 * 3 - 1)));
+  }
+}
+
+/* حركة أبطأ للغة العربية (RTL) */
+@keyframes scrollInfiniteRTL {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(200px * 4 * 3 + 40px * (4 * 3 - 1)));
+  }
+}
+
+/* عنصر الشريك */
+.partner-item {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+  min-width: 200px;
+  padding: 25px 40px;
+  background: white;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  overflow: hidden;
+}
+
+/* شعار الشريك */
+.partner-logo {
+  max-width: 150px;
+  max-height: 150px;
+  object-fit: contain;
+  transition: all 0.4s ease;
+}
+
+/* تأثير عند التمرير */
+.partner-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-color: #3b82f6;
+}
+
+/* تنسيق الشاشات الكبيرة */
+@media (min-width: 768px) {
+  .partners-simple {
+    padding: 80px 40px;
+  }
+  
+  .main-title {
+    font-size: 48px;
+  }
+  
+  .description {
+    font-size: 22px;
+    margin-bottom: 70px;
+  }
+  
+  .partners-wrapper {
+    margin: 60px 0;
+    padding: 40px 0;
+    overflow: visible;
+  }
+  
+  .partner-item {
+    height: 160px;
+    min-width: 220px;
+    padding: 30px 50px;
+  }
+  
+  .partner-logo {
+    max-height: 100px;
+  }
+}
+
+/* تنسيق الشاشات الصغيرة */
+@media (max-width: 767px) {
+  .partners-simple {
+    padding: 40px 15px;
+  }
+  
+  .main-title {
+    font-size: 32px;
+  }
+  
+  .main-title::after {
+    width: 60px;
+    height: 3px;
+    margin: 12px auto;
+  }
+  
+  .description {
+    font-size: 18px;
+    margin-bottom: 40px;
+    padding: 0 10px;
+  }
+  
+  .partners-wrapper {
+    margin: 30px 0;
+    padding: 20px 0;
+    overflow: hidden;
+  }
+  
+  .partner-item {
+    height: 120px;
+    min-width: 160px;
+    padding: 20px 30px;
+  }
+  
+  .partner-logo {
+    max-height: 100px;
+  }
+  
+  /* تصحيح الحركة للشاشات الصغيرة */
+  @keyframes scrollInfiniteLTR {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-160px * 4 * 3 - 30px * (4 * 3 - 1)));
+    }
+  }
+  
+  @keyframes scrollInfiniteRTL {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(160px * 4 * 3 + 30px * (4 * 3 - 1)));
+  }
+}
+
+/* دعم اللغة العربية */
+[dir="rtl"] .main-title,
+[dir="rtl"] .description {
+  text-align: center;
+}
+
+[dir="rtl"] .main-title::after {
+  margin: 16px auto;
+}
+
+[lang="ar"] {
+  font-family: 'Cairo', 'Segoe UI', sans-serif;
+}
+
+[lang="en"] {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* تحسينات للعرض على الأجهزة المختلفة */
+@media (max-width: 480px) {
+  .main-title {
+    font-size: 28px;
+  }
+  
+  .description {
+    font-size: 16px;
+  }
+  
+  .partner-item {
+    height: 100px;
+    min-width: 140px;
+    padding: 15px 25px;
+  }
+  
+  .partner-logo {
+    max-height: 100px;
+  }
+  
+  .partners-wrapper::before,
+  .partners-wrapper::after {
+    width: 40px;
+  }
+  
+  /* تصحيح الحركة للشاشات الصغيرة جداً */
+  @keyframes scrollInfiniteLTR {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-140px * 4 * 3 - 25px * (4 * 3 - 1)));
+    }
+  }
+  
+  @keyframes scrollInfiniteRTL {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(140px * 4 * 3 + 25px * (4 * 3 - 1)));
+    }
+  }
+}
+}

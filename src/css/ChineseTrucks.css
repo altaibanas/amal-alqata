@@ -1,0 +1,710 @@
+.chinese-trucks-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f5f7fa 0%, #ffffff 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* رأس القسم */
+.section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1a237e;
+  margin-bottom: 12px;
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #1a237e, #283593, #3949ab);
+  border-radius: 2px;
+}
+
+.section-subtitle {
+  font-size: 1.3rem;
+  color: #283593;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(26, 35, 126, 0.1);
+  border-left: 4px solid #3949ab;
+}
+
+.section-description p {
+  color: #455a64;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin: 0;
+  text-align: center;
+}
+
+/* رأس فرعي */
+.section-subheader {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-subheader h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a237e;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.section-subheader h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: #3949ab;
+  border-radius: 2px;
+}
+
+/* قسم الماركات */
+.brands-section {
+  margin-bottom: 60px;
+}
+
+.brands-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.brand-card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid #e8eaf6;
+  position: relative;
+  overflow: hidden;
+}
+
+.brand-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 32px rgba(26, 35, 126, 0.15);
+  border-color: var(--brand-color);
+}
+
+.brand-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--brand-color);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.brand-card:hover::before {
+  opacity: 1;
+}
+
+.brand-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--brand-color) 0%, color-mix(in srgb, var(--brand-color) 70%, white) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 800;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.brand-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1a237e;
+  margin-bottom: 12px;
+}
+
+.brand-description {
+  font-size: 0.9rem;
+  color: #546e7a;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.brand-hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: var(--brand-color);
+  font-weight: 600;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+}
+
+.brand-card:hover .brand-hover {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* جدول القطع */
+.parts-table-section {
+  margin-bottom: 60px;
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.parts-table {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.table-column {
+  background: #f9fafc;
+  border-radius: 12px;
+  padding: 24px;
+  border: 1px solid #e8eaf6;
+  transition: all 0.3s ease;
+}
+
+.table-column:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: #3949ab;
+}
+
+.column-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #e8eaf6;
+}
+
+.column-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #3949ab, #1a237e);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.column-header h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a237e;
+  margin: 0;
+  flex: 1;
+}
+
+.column-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.column-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #e8eaf6;
+  transition: all 0.3s ease;
+}
+
+.column-item:hover {
+  transform: translateX(5px);
+  border-color: #3949ab;
+  background: #f3f4fa;
+}
+
+.column-item i {
+  color: #3949ab;
+  font-size: 0.9rem;
+}
+
+.column-item span {
+  font-size: 0.95rem;
+  color: #455a64;
+  font-weight: 500;
+}
+
+/* فئات القطع */
+.categories-section {
+  margin-bottom: 60px;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.category-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid #e8eaf6;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.category-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border-color: var(--category-color);
+}
+
+.category-header {
+  background: linear-gradient(135deg, var(--category-color) 0%, color-mix(in srgb, var(--category-color) 80%, white) 100%);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+}
+
+.category-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.category-header h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+  flex: 1;
+}
+
+.category-body {
+  padding: 20px;
+}
+
+.parts-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.part-item {
+  background: #f8f9ff;
+  border: 1px solid #e8eaf6;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  color: #455a64;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.part-item:hover {
+  background: var(--category-color);
+  color: white;
+  border-color: var(--category-color);
+  transform: scale(1.05);
+}
+
+.category-footer {
+  padding: 15px 20px;
+  border-top: 1px solid #e8eaf6;
+  text-align: center;
+}
+
+.parts-count {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--category-color);
+}
+
+/* المميزات */
+.features-section {
+  margin-bottom: 60px;
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.features-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  background: #f9fafc;
+  border-radius: 12px;
+  border-left: 4px solid var(--feature-color);
+  transition: all 0.3s ease;
+}
+
+.feature-item:hover {
+  transform: translateX(10px);
+  background: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--feature-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.feature-content h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1a237e;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* إحصائيات */
+.stats-section {
+  background: linear-gradient(135deg, #1a237e 0%, #3949ab 100%);
+  border-radius: 16px;
+  padding: 40px;
+  margin-bottom: 60px;
+  color: white;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.stat-label {
+  font-size: 1rem;
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+.stat-icon {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+  color: white;
+}
+
+/* دعوة للعمل */
+.cta-section {
+  background: white;
+  border-radius: 20px;
+  padding: 50px;
+  text-align: center;
+  box-shadow: 0 12px 32px rgba(26, 35, 126, 0.1);
+  border: 2px solid #e8eaf6;
+}
+
+.cta-content h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a237e;
+  margin-bottom: 15px;
+}
+
+.cta-content p {
+  font-size: 1.1rem;
+  color: #546e7a;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 14px 32px;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 200px;
+  justify-content: center;
+}
+
+.primary-btn {
+  background: linear-gradient(135deg, #1a237e 0%, #3949ab 100%);
+  color: white;
+  border: none;
+}
+
+.primary-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(26, 35, 126, 0.2);
+}
+
+.secondary-btn {
+  background: white;
+  color: #1a237e;
+  border: 2px solid #1a237e;
+}
+
+.secondary-btn:hover {
+  background: #1a237e;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(26, 35, 126, 0.1);
+}
+
+/* تأثيرات الظهور */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* تصميم متجاوب */
+@media (max-width: 1024px) {
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .parts-table {
+    grid-template-columns: 1fr;
+  }
+  
+  .features-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .chinese-trucks-section {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .brands-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .categories-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .features-list {
+    grid-template-columns: 1fr;
+  }
+  
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .cta-section {
+    padding: 40px 20px;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+  }
+  
+  .primary-btn,
+  .secondary-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .chinese-trucks-section {
+    padding: 40px 0;
+  }
+  
+  .section-title {
+    font-size: 1.6rem;
+  }
+  
+  .section-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .brands-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .section-description {
+    padding: 15px;
+  }
+}
+
+/* دعم اللغة العربية */
+[dir="rtl"] .section-title::after {
+  left: auto;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+[dir="rtl"] .section-subheader h2::after {
+  left: auto;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+[dir="rtl"] .feature-item {
+  border-left: none;
+  border-right: 4px solid var(--feature-color);
+}
+
+[dir="rtl"] .feature-item:hover {
+  transform: translateX(-10px);
+}
+
+[dir="rtl"] .column-item:hover {
+  transform: translateX(-5px);
+}
+
+[dir="rtl"] .brand-hover,
+[dir="rtl"] .column-item,
+[dir="rtl"] .feature-item,
+[dir="rtl"] .primary-btn,
+[dir="rtl"] .secondary-btn {
+  flex-direction: row-reverse;
+}
+
+/* تحسينات الخطوط */
+[lang="ar"] {
+  font-family: 'Cairo', 'Segoe UI', sans-serif;
+}
+
+[lang="en"] {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+
+.brand-logo {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--brand-color, #333);
+}
+
+/* للاستجابة على الشاشات المختلفة */
+@media (max-width: 768px) {
+  .brand-logo {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .brand-logo {
+    width: 50px;
+    height: 50px;
+  }
+}

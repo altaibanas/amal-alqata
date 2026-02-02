@@ -1,0 +1,311 @@
+/* ============= قسم من نحن - أسماء فريدة ============= */
+
+.about-hero-section {
+    padding-top: calc(var(--header-height) + 3rem);
+    padding-bottom: 5rem;
+    background: var(--gradient-dark);
+    color: white;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-hero-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: 
+        radial-gradient(circle at 20% 50%, rgba(245, 158, 11, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 40% 80%, rgba(139, 92, 246, 0.05) 0%, transparent 50%);
+}
+
+.about-hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-hero-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-hero-content {
+    animation: about-hero-fadeInUp 0.8s ease;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-hero-fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.about-hero-fade-in.about-hero-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.about-hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: var(--radius-full);
+    padding: 0.5rem 1.25rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.about-hero-badge-dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    background: var(--success);
+    border-radius: 50%;
+    animation: about-hero-pulse 2s infinite;
+}
+
+.about-hero-title {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+    color: white;
+    max-width: 800px;
+    text-align: center;
+}
+
+.about-hero-description {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 2.5rem;
+    line-height: 1.8;
+    max-width: 700px;
+    text-align: center;
+}
+
+.about-hero-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-hero-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 2rem;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    cursor: pointer;
+    justify-content: center;
+    min-width: 200px;
+}
+
+.about-hero-btn-primary {
+    background: var(--gradient-primary);
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.about-hero-btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+}
+
+.about-hero-btn-secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-color: rgba(255, 255, 255, 0.2);
+      margin-right: .5rem;
+}
+
+.about-hero-btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+.about-hero-btn i {
+    font-size: 1.1rem;
+}
+
+/* أنماط إضافية لقسم من نحن */
+.about-hero-highlights {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-hero-highlight-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: var(--radius-lg);
+    margin-bottom: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.about-hero-highlight-item:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent);
+}
+
+.about-hero-highlight-icon {
+    color: var(--accent);
+    font-size: 1.25rem;
+}
+
+.about-hero-highlight-text {
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* تأثيرات إضافية */
+@keyframes about-hero-pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes about-hero-fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* توسيط إضافي للشاشات الكبيرة */
+@media (min-width: 1200px) {
+    .about-hero-title {
+        font-size: 4rem;
+    }
+    
+    .about-hero-description {
+        font-size: 1.35rem;
+    }
+}
+
+/* استجابة للشاشات المتوسطة والصغيرة */
+@media (max-width: 768px) {
+    .about-hero-section {
+        padding-top: calc(var(--header-height) + 2rem);
+        padding-bottom: 3rem;
+        min-height: auto;
+    }
+    
+    .about-hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .about-hero-description {
+        font-size: 1.1rem;
+    }
+    
+    .about-hero-highlights {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .about-hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about-hero-btn {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+/* دعم RTL/LTR */
+.about-hero-rtl .about-hero-badge,
+.about-hero-ltr .about-hero-badge {
+    justify-content: center;
+}
+
+.about-hero-rtl .about-hero-highlight-item,
+.about-hero-ltr .about-hero-highlight-item {
+    justify-content: center;
+}
+
+/* التأكد من أن جميع العناصر تبقى متوسطة */
+.about-hero-content * {
+    text-align: center !important;
+}
+
+.about-hero-content h1,
+.about-hero-content p,
+.about-hero-content .about-hero-description,
+.about-hero-content .about-hero-highlights,
+.about-hero-content .about-hero-buttons {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+}
+
+/* أسماء فريدة للإحصائيات (في حال استخدامها لاحقًا) */
+.about-hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.about-hero-stat-item {
+    text-align: center;
+}
+
+.about-hero-stat-number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--accent);
+    display: block;
+}
+
+.about-hero-stat-label {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.1rem;
+}

@@ -1,0 +1,790 @@
+/* البادئة petro- تضمن أن الكلاسات فريدة ولا تتضارب مع غيرها */
+
+.petro-section {
+  padding: 80px 0;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  color: #0d1b3e;
+}
+
+.petro-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #e63946, #4cc9f0, #4361ee);
+  z-index: 1;
+}
+
+.petro-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 2;
+}
+
+/* رأس القسم */
+.petro-section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.petro-section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: #0d1b3e;
+  position: relative;
+  display: inline-block;
+}
+
+.petro-section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #e63946, #4361ee);
+  border-radius: 2px;
+}
+
+.petro-section-subtitle {
+  font-size: 1.4rem;
+  color: #4361ee;
+  font-weight: 600;
+  margin-bottom: 25px;
+  line-height: 1.4;
+}
+
+.petro-section-description {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  background: rgba(13, 27, 62, 0.03);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(67, 97, 238, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+}
+
+.petro-section-description p {
+  color: #0d1b3e;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 0;
+  text-align: center;
+}
+
+/* إحصائيات */
+.petro-stats-section {
+  margin-bottom: 60px;
+}
+
+.petro-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.petro-stat-item {
+  text-align: center;
+  padding: 25px;
+  border-radius: 12px;
+  background: rgba(13, 27, 62, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(67, 97, 238, 0.15);
+  transition: all 0.3s ease;
+}
+
+.petro-stat-item:hover {
+  background: rgba(67, 97, 238, 0.08);
+  border-color: #4361ee;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.petro-stat-number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #4361ee;
+  margin-bottom: 8px;
+  line-height: 1;
+}
+
+.petro-stat-label {
+  font-size: 0.95rem;
+  color: rgba(13, 27, 62, 0.8);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* رأس فرعي */
+.petro-section-subheader {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.petro-section-subheader h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0d1b3e;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 12px;
+}
+
+.petro-section-subheader h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, #e63946, #4361ee);
+  border-radius: 2px;
+}
+
+/* القطع المتوفرة */
+.petro-parts-section {
+  margin-bottom: 60px;
+}
+
+.petro-parts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+}
+
+.petro-part-card {
+  background: rgba(13, 27, 62, 0.02);
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid rgba(13, 27, 62, 0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  backdrop-filter: blur(10px);
+}
+
+.petro-part-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--petro-part-color);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.petro-part-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--petro-part-color);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.petro-part-card:hover::before {
+  opacity: 1;
+}
+
+.petro-part-header {
+  padding: 25px 25px 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.petro-part-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--petro-part-color) 0%, color-mix(in srgb, var(--petro-part-color) 80%, white) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+
+.petro-part-header h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0d1b3e;
+  margin: 0;
+  flex: 1;
+}
+
+.petro-part-body {
+  padding: 0 25px 20px;
+}
+
+.petro-part-body p {
+  color: rgba(13, 27, 62, 0.8);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.petro-part-footer {
+  padding: 20px 25px;
+  border-top: 1px solid rgba(13, 27, 62, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.petro-part-spec {
+  font-size: 0.85rem;
+  color: var(--petro-part-color);
+  font-weight: 600;
+  padding: 5px 12px;
+  background: rgba(var(--petro-part-color-rgb), 0.1);
+  border-radius: 20px;
+}
+
+.petro-part-hover {
+  color: var(--petro-part-color);
+  font-size: 1rem;
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: all 0.3s ease;
+}
+
+.petro-part-card:hover .petro-part-hover {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.petro-part-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, var(--petro-part-color) 0%, transparent 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.petro-part-card:hover .petro-part-overlay {
+  opacity: 0.05;
+}
+
+/* تطبيقات الاستخدام */
+.petro-applications-section {
+  margin-bottom: 60px;
+}
+
+.petro-applications-content {
+  background: rgba(13, 27, 62, 0.02);
+  border-radius: 20px;
+  padding: 50px;
+  border: 1px solid rgba(67, 97, 238, 0.15);
+}
+
+.petro-applications-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.petro-applications-header h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0d1b3e;
+  margin-bottom: 15px;
+}
+
+.petro-applications-header p {
+  color: rgba(13, 27, 62, 0.8);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.petro-applications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.petro-application-item {
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 12px;
+  background: rgba(13, 27, 62, 0.02);
+  border: 1px solid rgba(13, 27, 62, 0.1);
+  transition: all 0.3s ease;
+}
+
+.petro-application-item:hover {
+  background: rgba(var(--petro-app-color-rgb), 0.1);
+  border-color: var(--petro-app-color);
+  transform: translateY(-5px);
+}
+
+.petro-app-icon {
+  font-size: 2.5rem;
+  color: var(--petro-app-color);
+  margin-bottom: 15px;
+}
+
+.petro-application-item h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0d1b3e;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* مزايا المنتجات */
+.petro-advantages-section {
+  margin-bottom: 60px;
+}
+
+.petro-advantages-content {
+  background: rgba(13, 27, 62, 0.02);
+  border-radius: 20px;
+  padding: 50px;
+  border: 1px solid rgba(67, 97, 238, 0.15);
+}
+
+.petro-advantages-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.petro-advantages-header h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0d1b3e;
+  margin-bottom: 15px;
+}
+
+.petro-advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.petro-advantage-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 25px;
+  border-radius: 12px;
+  background: rgba(13, 27, 62, 0.02);
+  border: 1px solid rgba(13, 27, 62, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.petro-advantage-item:hover {
+  background: rgba(var(--petro-advantage-color-rgb), 0.1);
+  border-color: var(--petro-advantage-color);
+  transform: translateX(10px);
+}
+
+.petro-advantage-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--petro-advantage-color);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.petro-advantage-item:hover::before {
+  opacity: 1;
+}
+
+.petro-advantage-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--petro-advantage-color) 0%, color-mix(in srgb, var(--petro-advantage-color) 80%, white) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+
+.petro-advantage-content {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.petro-advantage-content h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0d1b3e;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.petro-advantage-check {
+  color: var(--petro-advantage-color);
+  font-size: 1.2rem;
+}
+
+/* قسم السلامة */
+.petro-safety-section {
+  margin-bottom: 60px;
+}
+
+.petro-safety-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+  background: rgba(13, 27, 62, 0.02);
+  border-radius: 20px;
+  padding: 50px;
+  border: 1px solid rgba(67, 97, 238, 0.15);
+}
+
+.petro-safety-visual {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.petro-safety-icon {
+  color: #4361ee;
+  position: relative;
+  z-index: 2;
+}
+
+.petro-safety-rings {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+}
+
+.petro-safety-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid rgba(67, 97, 238, 0.3);
+  border-radius: 50%;
+  animation: petro-pulse-ring 3s ease-in-out infinite;
+}
+
+.petro-safety-ring:nth-child(1) {
+  width: 100px;
+  height: 100px;
+  animation-delay: 0s;
+}
+
+.petro-safety-ring:nth-child(2) {
+  width: 200px;
+  height: 200px;
+  animation-delay: 0.5s;
+}
+
+.petro-safety-ring:nth-child(3) {
+  width: 300px;
+  height: 300px;
+  animation-delay: 1s;
+}
+
+.petro-safety-ring:nth-child(4) {
+  width: 400px;
+  height: 400px;
+  animation-delay: 1.5s;
+}
+
+@keyframes petro-pulse-ring {
+  0%, 100% { 
+    opacity: 0.3;
+    border-width: 2px;
+  }
+  50% { 
+    opacity: 0.1;
+    border-width: 1px;
+  }
+}
+
+.petro-safety-text h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0d1b3e;
+  margin-bottom: 20px;
+}
+
+.petro-safety-text p {
+  color: rgba(13, 27, 62, 0.9);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.petro-safety-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.petro-safety-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: rgba(13, 27, 62, 0.9);
+}
+
+.petro-safety-list i {
+  color: #4CAF50;
+  font-size: 1.1rem;
+}
+
+/* دعوة للعمل */
+.petro-cta-section {
+  background: linear-gradient(135deg, rgba(230, 57, 70, 0.05) 0%, rgba(67, 97, 238, 0.05) 100%);
+  border-radius: 20px;
+  padding: 60px;
+  text-align: center;
+  border: 2px solid rgba(67, 97, 238, 0.2);
+}
+
+.petro-cta-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0d1b3e;
+  margin-bottom: 20px;
+}
+
+.petro-cta-content p {
+  color: rgba(13, 27, 62, 0.9);
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.petro-cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.petro-primary-btn,
+.petro-secondary-btn {
+  padding: 16px 36px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  min-width: 220px;
+}
+
+.petro-primary-btn {
+  background: linear-gradient(135deg, #e63946 0%, #ff6b6b 100%);
+  color: white;
+  border: none;
+}
+
+.petro-primary-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 30px rgba(230, 57, 70, 0.3);
+}
+
+.petro-secondary-btn {
+  background: transparent;
+  color: #4361ee;
+  border: 2px solid #4361ee;
+}
+
+.petro-secondary-btn:hover {
+  background: #4361ee;
+  color: white;
+  transform: translateY(-4px);
+  box-shadow: 0 15px 30px rgba(67, 97, 238, 0.2);
+}
+
+/* تأثيرات الظهور */
+.petro-fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.petro-fade-in.petro-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* تصميم متجاوب */
+@media (max-width: 1024px) {
+  .petro-safety-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .petro-parts-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .petro-safety-rings {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .petro-section {
+    padding: 60px 0;
+  }
+  
+  .petro-section-title {
+    font-size: 2rem;
+  }
+  
+  .petro-section-subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .petro-parts-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .petro-applications-grid,
+  .petro-advantages-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .petro-applications-content,
+  .petro-advantages-content,
+  .petro-safety-content,
+  .petro-cta-section {
+    padding: 40px 30px;
+  }
+  
+  .petro-cta-buttons {
+    flex-direction: column;
+  }
+  
+  .petro-primary-btn,
+  .petro-secondary-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .petro-section {
+    padding: 40px 0;
+  }
+  
+  .petro-section-title {
+    font-size: 1.6rem;
+  }
+  
+  .petro-section-description {
+    padding: 20px;
+  }
+  
+  .petro-stats-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .petro-applications-grid,
+  .petro-advantages-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .petro-applications-content,
+  .petro-advantages-content,
+  .petro-safety-content,
+  .petro-cta-section {
+    padding: 30px 20px;
+  }
+  
+  .petro-cta-content h2 {
+    font-size: 1.5rem;
+  }
+  
+  .petro-cta-content p {
+    font-size: 1rem;
+  }
+}
+
+/* دعم اللغة العربية */
+[dir="rtl"] .petro-section-title::after {
+  left: auto;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+[dir="rtl"] .petro-section-subheader h2::after {
+  left: auto;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+[dir="rtl"] .petro-advantage-item::before {
+  left: auto;
+  right: 0;
+}
+
+[dir="rtl"] .petro-advantage-item:hover {
+  transform: translateX(-10px);
+}
+
+[dir="rtl"] .petro-part-hover {
+  transform: translateX(10px);
+}
+
+[dir="rtl"] .petro-part-card:hover .petro-part-hover {
+  transform: translateX(0);
+}
+
+[dir="rtl"] .petro-part-hover i {
+  transform: rotate(180deg);
+}
+
+[dir="rtl"] .petro-safety-list li,
+[dir="rtl"] .petro-advantage-item,
+[dir="rtl"] .petro-primary-btn,
+[dir="rtl"] .petro-secondary-btn {
+  flex-direction: row-reverse;
+}
+
+/* تحسينات الخطوط */
+[lang="ar"] {
+  font-family: 'Cairo', 'Segoe UI', sans-serif;
+}
+
+[lang="en"] {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}

@@ -1,0 +1,2455 @@
+
+ {
+  "common": {
+    "companyName": "Amal Al-Qata Trading Company",
+    "englishName": "Amal Al-Qata for Trading",
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "contactNow": "Contact Now",
+    "certified": "Certified",
+    "since": "Since",
+    "yearsExperience": "Years Experience"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Our Products",
+    "services":"our Services",
+    "partners": "Our Partners",
+    "blog": "Blog",
+    "contact": "Contact Us",
+    "phone": "Download Catalog",
+    "menu": "Menu"
+  },
+    "productsSubmenu": {
+    "truckParts": "Chinese Truck Parts",
+    "trailerParts": "Trailer Parts",
+   " oilParts": "Petroleum Loading and Unloading Parts"
+  },
+  "heroh": {
+    "badge": "The Leading Spare Parts Supplier in the Kingdom",
+    "title": "Integrated <span class='text-gradient'>Spare Parts</span> Solutions for All Your Industries",
+    "description": "We offer a comprehensive range of Chinese vehicle spare parts, trailers, and petroleum filling systems. We guarantee high quality, competitive prices, and fast delivery across the Kingdom of Saudi Arabia and Gulf countries.",
+    "browseProducts": "Browse Our Products",
+    "freeConsultation": "Request Free Consultation",
+    "years": "Years Experience",
+    "productTypes": "Product Types",
+    "satisfiedClients": "Satisfied Clients",
+    "certifiedQuality": "Internationally Certified Quality",
+    "qualityDescription": "All our products comply with international specifications",
+    "isoCertificate": "Quality Certificate",
+    "technicalSupport": "Technical Support"
+  },
+  "about": {
+    "title": "<span class='text-gradient'>Amal Al-Qata</span> Trading Company",
+    "subtitle": "About Us",
+    "description": "Amal Al-Qata Trading Company is a Saudi company specialized in spare parts trade, serving the vehicle, trailer, and petroleum product packaging system sectors. It focuses on providing reliable products with high quality and competitive prices, supported by extensive experience and an effective supply chain.",
+    "yearFounded": "Year Founded",
+    "specializedDepartments": "Specialized Departments",
+    "mainWarehouses": "Main Warehouses",
+    "yearsExperienceShort": "Years Experience"
+  },
+  "whyUs": {
+    "title": "<span class='text-gradient'>Why Choose</span> Amal Al-Qata?",
+    "subtitle": "Our Excellence",
+    "description": "We provide integrated solutions that meet all your spare parts needs",
+    "features": {
+      "quality": {
+        "title": "Unmatched Quality",
+        "description": "We provide original spare parts that comply with Gulf and European specifications, with guaranteed quality and optimal performance."
+      },
+      "delivery": {
+        "title": "Fast Delivery",
+        "description": "An integrated distribution network ensures timely delivery of spare parts across the Kingdom."
+      },
+      "pricing": {
+        "title": "Competitive Pricing",
+        "description": "The best prices in the market with multiple options to suit all budgets and customer requirements."
+      },
+      "support": {
+        "title": "Integrated Technical Support",
+        "description": "A specialized technical support team available 24/7 to provide consultations and integrated technical support."
+      }
+    }
+  },
+  "products": {
+    "title": "Integrated <span class='text-gradient'>Solutions</span> for All Sectors",
+    "subtitle": "Our Main Products",
+    "description": "We offer a wide range of high-quality products for transportation and industrial sectors",
+    "categories": {
+      "chineseVehicles": {
+        "title": "Chinese Vehicle Spare Parts",
+        "description": "A comprehensive range of Chinese vehicle spare parts for all models and types",
+        "badge": "Best Seller",
+        "features": [
+          "Original and high-quality parts",
+          "Compliant with Gulf specifications",
+          "Performance and efficiency guarantee"
+        ]
+      },
+      "trailers": {
+        "title": "Trailer Spare Parts",
+        "description": "All types of heavy and light trailer spare parts with global safety standards",
+        "badge": "Excellent Quality",
+        "features": [
+          "Axles, assistors, and gates",
+          "Disks and air cushions",
+          "European and Gulf standards"
+        ]
+      },
+      "petroleumSystems": {
+        "title": "Petroleum Filling Systems",
+        "description": "Spare parts for petroleum filling and unloading systems for oil and gas facilities",
+        "badge": "Specialized",
+        "features": [
+          "Certified products for the petroleum sector",
+          "Global quality and outstanding performance",
+          "Specialized technical support"
+        ]
+      }
+    }
+  },
+  "values": {
+    "title": "The Values that <span class='text-gradient'>Form the Foundation of Our Success</span>",
+    "subtitle": "Our Core Values",
+    "description": "We are guided in our work by a set of core values that distinguish us and lead us towards building long-term relationships",
+    "items": {
+      "professionalism": {
+        "title": "Professional Dealings",
+        "description": "We adhere to the highest standards of professionalism in all our dealings with customers and partners, focusing on understanding their needs and providing appropriate solutions."
+      },
+      "responsiveness": {
+        "title": "Quick Response",
+        "description": "We ensure quick response to customer requests and timely delivery of solutions, ensuring continuity of their operations without interruption."
+      },
+      "trust": {
+        "title": "Mutual Trust",
+        "description": "We build our relationships on mutual trust and transparency, making us a reliable partner for our customers in all transactions."
+      },
+      "innovation": {
+        "title": "Innovative Solutions",
+        "description": "We always strive to provide innovative and advanced solutions that efficiently meet customer needs and keep pace with market technological developments."
+      }
+    },
+    "quote": "These fundamental principles are what distinguish us and lead us towards building long-term relationships with our customers and partners, and we are committed to them in every step we take in our journey of success."
+  },
+  "sectors": {
+    "title": "We Serve a <span class='text-gradient'>Wide Range</span> of Sectors",
+    "subtitle": "Sectors We Serve",
+    "description": "We provide spare parts solutions for various industrial and commercial sectors in the Kingdom and the Gulf",
+    "items": [
+      {
+        "title": "Land Transport Companies",
+        "description": "Integrated solutions for truck and trailer fleets of land transport companies"
+      },
+      {
+        "title": "Factories and Industrial Facilities",
+        "description": "Spare parts for industrial equipment and heavy machinery in factories and facilities"
+      },
+      {
+        "title": "Fuel Stations and Service Centers",
+        "description": "Petroleum filling and distribution systems for fuel stations and service centers"
+      },
+      {
+        "title": "Workshops and Service Centers",
+        "description": "Supply of spare parts to specialized workshops and authorized maintenance centers"
+      },
+      {
+        "title": "Government Sectors",
+        "description": "Integrated solutions for vehicle and equipment fleets in government sectors"
+      },
+      {
+        "title": "Construction Contractors",
+        "description": "Spare parts for heavy equipment and construction machinery in contracting companies"
+      }
+    ]
+  },
+  "brands": {
+    "title": "We Work with <span class='text-gradient'>Top Global Brands</span>",
+    "subtitle": "Our Brands",
+    "description": "Strategic partnerships with global manufacturers and suppliers to ensure product quality",
+    "items": [
+      {
+        "name": "WABCO",
+        "description": "Leader in brake control and safety systems for commercial vehicles",
+        "since": "Partner since 2010"
+      },
+      {
+        "name": "Chinese Manufacturers",
+        "description": "Partnerships with leading spare parts factories in China",
+        "since": "Multiple partnerships"
+      },
+      {
+        "name": "European Suppliers",
+        "description": "Supply of spare parts with certified and reliable European quality",
+        "since": "Global quality"
+      },
+      {
+        "name": "Local Manufacturers",
+        "description": "Cooperation with Saudi factories and locally authorized dealers",
+        "since": "Supporting local industry"
+      }
+    ]
+  },
+  "services": {
+    "title": "Integrated <span class='text-gradient'>Services</span> with Every Product",
+    "subtitle": "Our Additional Services",
+    "description": "We provide a range of additional services to ensure customer satisfaction and maximum benefit from our products",
+    "items": [
+      {
+        "title": "Import on Demand",
+        "description": "We offer spare parts import service according to customer-specific orders, with quality assurance and best global prices."
+      },
+      {
+        "title": "Local and International Supply",
+        "description": "We provide local and international spare parts supply service, with an advanced logistics network ensuring timely delivery of products."
+      },
+      {
+        "title": "After-Sales Service",
+        "description": "We provide after-sales service and integrated technical support to ensure customer satisfaction and optimal use of products."
+      }
+    ]
+  },
+  "certifications": {
+    "title": "We Commit to the Highest <span class='text-gradient'>Quality Standards</span>",
+    "subtitle": "Certifications and Quality",
+    "description": "Certificates and accreditations that prove the quality of our products and services and our excellence in the market",
+    "items": [
+      {
+        "title": "ISO 9001:2015",
+        "description": "We hold the global quality management system certificate ISO 9001:2015, proving our commitment to providing services and products of reliable quality.",
+        "obtained": "January 2015",
+        "renewed": "January 2023",
+        "badge": "Globally certified certificate"
+      },
+      {
+        "title": "Safety Standards",
+        "description": "Our products are backed by European and Gulf safety standards, with special focus on trailer and commercial vehicle safety.",
+        "standards": "European and Gulf",
+        "application": "All products",
+        "badge": "High safety standards"
+      },
+      {
+        "title": "Sector Specifications",
+        "description": "All our products are certified and comply with various sector specifications, especially in petroleum filling systems.",
+        "applications": "Petroleum sector",
+        "quality": "Certified for use",
+        "badge": "Approved specifications"
+      }
+    ]
+  },
+  "team": {
+    "title": "Our <span class='text-gradient'>Specialized</span> Team",
+    "subtitle": "Our Professional Team",
+    "description": "We focus on continuous development and work as a team to ensure complete customer satisfaction",
+    "members": [
+      {
+        "name": "Customer Service Team",
+        "role": "Customer Service and Follow-up",
+        "description": "A team specialized in customer service and follow-up, dedicated to understanding customer needs and providing appropriate solutions in a timely manner.",
+        "skills": ["Continuous support", "Quick response", "Customized solutions"]
+      },
+      {
+        "name": "Technical Support Team",
+        "role": "Technical Support and Spare Parts",
+        "description": "A specialized technical team with extensive experience in the spare parts field, capable of providing technical consultations and specialized support to customers.",
+        "skills": ["Technical expertise", "Technical solutions", "Maintenance and support"]
+      },
+      {
+        "name": "Sales and Supply Team",
+        "role": "Sales and Supply Management",
+        "description": "Sales and supply management team responsible for meeting market needs and providing required products at the best prices and quality.",
+        "skills": ["Supply network", "Negotiation", "Relationship management"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Ready to Serve You <span class='text-gradient'>24/7</span>",
+    "description": "Our team of experts is ready to answer your inquiries and provide the best solutions for your needs. Contact us now for a free consultation and special price offer.",
+    "methods": [
+      {
+        "title": "Call Us",
+        "detail": "+966 55 206 5095",
+        "note": "Available Sunday to Thursday 8 AM - 6 PM"
+      },
+      {
+        "title": "WhatsApp",
+        "detail": "+966 55 206 5095",
+        "note": "Customer service via WhatsApp 24/7"
+      },
+      {
+        "title": "Email",
+        "detail": "info@amal-alqata.com",
+        "note": "We respond to inquiries within 24 hours"
+      }
+    ]
+  },
+  "footer": {
+    "description": "The leading supplier of vehicle and trailer spare parts and petroleum filling systems in Saudi Arabia and the Gulf region. We provide high-quality products at competitive prices with excellent after-sales service.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Information",
+    "workingHours": "Working Hours",
+    "copyright": "Amal Al-Qata Trading Company. All rights reserved.",
+    "emergency": "Emergency service available 24/7",
+    "address": "Saudi Arabia, Riyadh",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "faq": "FAQ",
+    "returns": "Return Policy",
+    "schedule": {
+      "sundayToThursday": "Sunday - Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday"
+    }
+  },
+
+  
+  "aboutPage": {
+    "title": "About Us",
+    "subtitle": "Learn about our success story and core values",
+    "breadcrumb": {
+      "home": "Home",
+      "current": "About Us"
+    },
+    "company": {
+      "title": "The Leading Company in Spare Parts Trade",
+      "description": "Amal Al-Qata Trading Company is a Saudi company specialized in spare parts trade, serving the vehicle, trailer, and petroleum product packaging system sectors. It focuses on providing reliable products with high quality and competitive prices, supported by extensive experience and an effective supply chain.",
+      "features": {
+        "quality": {
+          "title": "Global Quality",
+          "description": "We provide spare parts that comply with international specifications and quality that ensures optimal performance."
+        },
+        "delivery": {
+          "title": "Fast Delivery",
+          "description": "Fast delivery service across the Kingdom with online order tracking."
+        },
+        "support": {
+          "title": "24/7 Technical Support",
+          "description": "A specialized technical support team available 24/7 to provide consultations and support."
+        }
+      }
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "Providing products and services that ensure strong performance and excellence for our clients across various industries. We are committed to providing reliable solutions that meet the needs of industrial and commercial sectors with the highest quality standards.",
+      "items": [
+        "Quality assurance in every product",
+        "Exceptional customer service",
+        "Providing innovative solutions",
+        "Commitment to deadlines and delivery"
+      ]
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the primary supplier of industrial and commercial spare parts solutions in the region, by providing innovative products and exceptional services that contribute to our clients' success and the development of the industries we serve.",
+      "goals": [
+        {
+          "title": "Market Leadership",
+          "description": "To be the first choice for customers in the spare parts field"
+        },
+        {
+          "title": "Regional Expansion",
+          "description": "Expansion in Gulf and Arab markets"
+        },
+        {
+          "title": "Continuous Innovation",
+          "description": "Providing innovative solutions that meet changing market needs"
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Journey of <span class='text-gradient'>Development and Excellence</span>",
+      "subtitle": "Success Journey",
+      "items": [
+        {
+          "year": "2008",
+          "title": "Company Foundation",
+          "description": "We started our journey by establishing Amal Al-Qata Trading Company, focusing on supplying vehicle spare parts."
+        },
+        {
+          "year": "2012",
+          "title": "Product Expansion",
+          "description": "We expanded our product range to include trailer spare parts and petroleum filling systems."
+        },
+        {
+          "year": "2015",
+          "title": "Quality Certification",
+          "description": "We obtained ISO 9001:2015 certification, confirming our commitment to global quality standards."
+        },
+        {
+          "year": "2020",
+          "title": "Regional Expansion",
+          "description": "We expanded our operations to include Gulf and Arab markets, becoming an approved supplier for many major companies."
+        },
+        {
+          "year": "2023",
+          "title": "Digital Transformation",
+          "description": "We launched our advanced electronic platform to serve our customers more efficiently and easily."
+        }
+      ]
+    },
+    "values": {
+      "title": "The Values that <span class='text-gradient'>Form the Foundation of Our Success</span>",
+      "subtitle": "Our Core Values",
+      "description": "We are guided in our work by a set of core values that distinguish us and lead us towards building long-term relationships with our clients",
+      "items": [
+        {
+          "title": "Professional Dealings",
+          "description": "We adhere to the highest standards of professionalism in our dealings with customers and partners, focusing on building long-term relationships."
+        },
+        {
+          "title": "Quick Response",
+          "description": "We ensure quick response to customer requests and timely delivery of solutions to ensure continuity of their operations."
+        },
+        {
+          "title": "Mutual Trust",
+          "description": "We build our relationships on mutual trust and transparency, making us a reliable partner for our customers."
+        },
+        {
+          "title": "Innovative Solutions",
+          "description": "We always strive to provide innovative and advanced solutions that efficiently meet customer needs and keep pace with technological developments."
+        }
+      ],
+      "quote": "These fundamental principles are what distinguish us and lead us towards building long-term relationships with our customers and partners, and we are committed to them in every step we take in our journey of success."
+    }
+  },
+  
+  "productsPage": {
+    "title": "Our Products",
+    "subtitle": "Discover our comprehensive and diverse range of products",
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Products"
+    },
+    "categories": {
+      "title": "Comprehensive Range of <span class='text-gradient'>Spare Parts</span>",
+      "subtitle": "Product Categories",
+      "description": "We offer a wide range of high-quality products for the transportation and industrial sectors",
+      "filters": {
+        "all": "All",
+        "vehicles": "Vehicle Spare Parts",
+        "trailers": "Trailer Spare Parts",
+        "oil": "Petroleum Filling Systems",
+        "import": "Import on Demand"
+      }
+    },
+    "vehicles": {
+      "title": "Chinese Vehicle Spare Parts",
+      "description": "We offer a comprehensive range of Chinese vehicle spare parts covering the most famous brands",
+      "brands": {
+        "wabco": {
+          "name": "WABCO",
+          "description": "We provide original WABCO spare parts that ensure strong performance and reliability in all conditions"
+        },
+        "chinese": {
+          "name": "Chinese Brands",
+          "description": "Spare parts for various well-known Chinese brands"
+        },
+        "european": {
+          "name": "European Brands",
+          "description": "Spare parts with European quality and international specifications compliance"
+        }
+      },
+      "features": [
+        "Original parts compliant with Gulf specifications",
+        "Quality and performance guarantee",
+        "Always available stock",
+        "Competitive prices"
+      ]
+    },
+    "trailers": {
+      "title": "Trailer Spare Parts",
+      "description": "Providing all types of heavy and light trailer spare parts",
+      "items": [
+        "Axles",
+        "Hubs",
+        "Assistants and gates",
+        "Discs, air cushions and checks",
+        "Lifting legs",
+        "Towing pin",
+        "Bodywork"
+      ],
+      "safety": {
+        "title": "Safety Standards",
+        "description": "Our products are supported by European and Gulf safety standards"
+      }
+    },
+    "oilSystems": {
+      "title": "Petroleum Filling and Unloading Systems",
+      "description": "We specialize in supplying spare parts for petroleum filling and unloading systems",
+      "applications": [
+        {
+          "name": "Fuel Stations",
+          "icon": "gas-pump"
+        },
+        {
+          "name": "Petrochemical Plants",
+          "icon": "industry"
+        },
+        {
+          "name": "Oil and Gas Facilities",
+          "icon": "oil-well"
+        }
+      ],
+      "certification": {
+        "title": "Quality Certificates",
+        "description": "All products are certified and used in major oil and gas facilities"
+      }
+    },
+    "services": {
+      "title": "Integrated <span class='text-gradient'>Services</span>",
+      "subtitle": "Our Additional Services",
+      "items": [
+        {
+          "title": "Import on Demand",
+          "description": "We offer spare parts import service according to customer-specific orders, with quality assurance and best prices.",
+          "icon": "shopping-cart"
+        },
+        {
+          "title": "Local and International Supply",
+          "description": "We provide local and international spare parts supply service, with an advanced logistics network.",
+          "icon": "shipping-fast"
+        },
+        {
+          "title": "After-Sales Service",
+          "description": "We provide after-sales service and integrated technical support to ensure customer satisfaction and optimal use.",
+          "icon": "headset"
+        }
+      ]
+    },
+    "sectors": {
+      "title": "Sectors <span class='text-gradient'>We Serve</span>",
+      "subtitle": "Served Sectors",
+      "items": [
+        {
+          "title": "Land Transport Sector",
+          "description": "Land transport companies and owners of trucks and trailers",
+          "number": "01"
+        },
+        {
+          "title": "Petroleum Filling Plants and Facilities",
+          "description": "Fuel stations and petrochemical plants",
+          "number": "02"
+        },
+        {
+          "title": "Contracting and Heavy Equipment Sector",
+          "description": "Construction equipment, heavy machinery and excavators",
+          "number": "03"
+        },
+        {
+          "title": "Workshops and Filling Stations",
+          "description": "Private and public workshops and maintenance stations",
+          "number": "04"
+        },
+        {
+          "title": "Government and Private Sectors",
+          "description": "Government institutions and private companies",
+          "number": "05"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Looking for specific spare parts?",
+      "description": "Contact us for a free consultation and special price offer",
+      "button": "Contact Us Now"
+    }
+  },
+
+
+
+  
+  "certificationsPage": {
+    "title": "Certifications & Quality",
+    "subtitle": "Our Commitment to Global Quality Standards",
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Certifications"
+    },
+    "isoCertification": {
+      "title": "<span class='text-gradient'>ISO 9001:2015</span> Certification",
+      "subtitle": "Globally Certified Quality",
+      "description": "We hold the <strong>ISO 9001:2015</strong> certification in quality management system, proving our commitment to providing reliable quality services and products, and achieving the highest standards of customer satisfaction.",
+      "benefits": [
+        "Guarantee of product and service quality",
+        "Improvement of internal processes",
+        "Increased customer satisfaction",
+        "Continuous development"
+      ],
+      "details": {
+        "obtained": "January 2015",
+        "renewed": "January 2023",
+        "issuer": "International Accreditation Foundation"
+      }
+    },
+    "standards": {
+      "title": "Quality Standards <span class='text-gradient'>We Adhere To</span>",
+      "subtitle": "Our Standards",
+      "items": [
+        {
+          "title": "Quality Control",
+          "description": "We apply a strict quality control system at every stage of supply, storage and distribution.",
+          "features": [
+            "Product inspection upon receipt",
+            "Periodic performance tests",
+            "Quality tracking in warehouses"
+          ]
+        },
+        {
+          "title": "Customer Satisfaction",
+          "description": "We regularly measure customer satisfaction and work to improve our services based on their feedback.",
+          "features": [
+            "Customer satisfaction surveys",
+            "Fast complaint processing",
+            "Loyalty and appreciation programs"
+          ]
+        },
+        {
+          "title": "Continuous Improvement",
+          "description": "We always strive to improve our processes and services through continuous development and innovation.",
+          "features": [
+            "Continuous employee training",
+            "Adoption of modern technologies",
+            "Improvement of internal processes"
+          ]
+        }
+      ]
+    },
+    "advantages": {
+      "title": "<span class='text-gradient'>Why We Are</span> the Best Choice?",
+      "subtitle": "Our Excellence",
+      "description": "Because we combine ideal quality, specialized expertise, and our commitment to serving our customers with professionalism and reliability.",
+      "items": [
+        {
+          "title": "High-Quality Spare Parts",
+          "description": "We provide original and specification-compliant spare parts with quality and performance guarantee."
+        },
+        {
+          "title": "Competitive Prices",
+          "description": "We offer competitive prices with various options to suit all budgets."
+        },
+        {
+          "title": "Expert Team",
+          "description": "Our team of experts specialized in spare parts provides the best consultations."
+        },
+        {
+          "title": "Fast Service",
+          "description": "We are distinguished by quick response and delivery on time."
+        },
+        {
+          "title": "Full Commitment to Quality",
+          "description": "We adhere to global quality standards in every product and every service we provide."
+        },
+        {
+          "title": "Integrated Technical Support",
+          "description": "We provide comprehensive technical support before and after sales to ensure customer satisfaction."
+        }
+      ]
+    },
+    "qualityStatement": {
+      "title": "Quality that Lasts, Performance that Shows",
+      "description": "At Amal Al-Qata Trading Company, we believe that quality is not just a slogan, but a commitment we adhere to in every product we offer and every service we provide to our valued customers.",
+      "metrics": [
+        {
+          "value": "95%",
+          "label": "Customer Satisfaction Rate"
+        },
+        {
+          "value": "99%",
+          "label": "Delivery Accuracy"
+        },
+        {
+          "value": "100%",
+          "label": "Quality Commitment"
+        }
+      ]
+    },
+    "additionalCertifications": {
+      "title": "Additional <span class='text-gradient'>Certifications & Specifications</span>",
+      "subtitle": "Additional Certifications",
+      "items": [
+        {
+          "title": "European Safety Standards",
+          "description": "Our products comply with European EN safety standards for trailers and vehicles."
+        },
+        {
+          "title": "Petroleum Sector Specifications",
+          "description": "We are certified to supply spare parts for petroleum filling systems according to sector specifications."
+        },
+        {
+          "title": "Gulf Vehicle Specifications",
+          "description": "Our products comply with vehicle and trailer specifications in GCC countries."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Want to Verify Our Product Quality?",
+      "description": "Contact us to request samples or visit our showroom to see the quality of our products up close",
+      "buttons": {
+        "samples": "Request Samples",
+        "visit": "Book a Visit"
+      }
+    }
+  },
+
+  
+  "contactPage": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help you with all your inquiries",
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Contact Us"
+    },
+    "contactInfo": {
+      "title": "Contact Information",
+      "items": [
+        {
+          "title": "Call Us",
+          "detail": "+966 55 206 5095",
+          "note": "Available Sunday to Thursday 8 AM - 6 PM",
+          "icon": "phone-alt"
+        },
+        {
+          "title": "WhatsApp",
+          "detail": "+966 55 206 5095",
+          "note": "Customer service via WhatsApp 24/7",
+          "icon": "whatsapp"
+        },
+        {
+          "title": "Email",
+          "detail": "info@amal-alqata.com",
+          "note": "We respond to inquiries within 24 hours",
+          "icon": "envelope"
+        },
+        {
+          "title": "Address",
+          "detail": "Saudi Arabia, Riyadh",
+          "note": "Our main headquarters in the capital Riyadh",
+          "icon": "map-marker-alt"
+        }
+      ]
+    },
+    "contactForm": {
+      "title": "Send Your <span class='text-gradient'>Inquiry Now</span>",
+      "subtitle": "Contact Us",
+      "description": "Our team of experts is ready to help you choose the best solutions for your needs. Contact us now for a free consultation and special price offer.",
+      "features": [
+        {
+          "text": "Quick response within 24 hours",
+          "icon": "clock"
+        },
+        {
+          "text": "Free consultation from an expert",
+          "icon": "user-tie"
+        },
+        {
+          "text": "Custom price offer",
+          "icon": "tags"
+        }
+      ],
+      "form": {
+        "name": {
+          "label": " Name *",
+          "placeholder": "Enter your  name"
+        },
+        "email": {
+          "label": "Email *",
+          "placeholder": "example@email.com"
+        },
+        "phone": {
+          "label": "Phone Number *",
+          "placeholder": "+966 55 123 4567"
+        },
+        "company": {
+          "label": "Company Name (Optional)",
+          "placeholder": "Company or institution name"
+        },
+        "subject": {
+          "label": "Message Subject *",
+          "placeholder": "Select message subject",
+          "options": [
+            {
+              "value": "",
+              "text": "Select message subject"
+            },
+            {
+              "value": "quotation",
+              "text": "Price quotation request"
+            },
+            {
+              "value": "technical",
+              "text": "Technical inquiry"
+            },
+            {
+              "value": "partnership",
+              "text": "Partnership request"
+            },
+            {
+              "value": "complaint",
+              "text": "Complaint or suggestion"
+            },
+            {
+              "value": "other",
+              "text": "Other subject"
+            }
+          ]
+        },
+        "message": {
+          "label": "Message *",
+          "placeholder": "Write your message here..."
+        },
+        "submit": "Send Message",
+        "note": "All fields marked with * are required"
+      }
+    },
+    "additionalInfo": {
+      "workingHours": {
+        "title": "Working Hours",
+        "items": [
+          {
+            "day": "Sunday - Thursday",
+            "hours": "8:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "10:00 AM - 2:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "10:00 AM - 4:00 PM"
+          }
+        ],
+        "note": "Emergency service available 24/7 via phone"
+      },
+      "location": {
+        "title": "How to Reach Us",
+        "description": "Our main headquarters in Riyadh, Saudi Arabia. You can visit us during official working hours.",
+        "features": [
+          {
+            "text": "Free parking",
+            "icon": "parking"
+          },
+          {
+            "text": "Equipped entrances",
+            "icon": "wheelchair"
+          },
+          {
+            "text": "Visitor reception",
+            "icon": "concierge-bell"
+          }
+        ]
+      },
+      "support": {
+        "title": "Technical Support",
+        "description": "The technical support team is available to help you with:",
+        "items": [
+          "Free technical consultations",
+          "Help in choosing appropriate parts",
+          "After-sales support",
+          "Solving technical problems"
+        ]
+      }
+    },
+    "map": {
+      "title": "Our Location on the Map",
+      "address": "Amal Al-Qata Trading Company",
+      "location": "Riyadh, Saudi Arabia",
+      "button": "Open in Google Maps"
+    },
+    "faq": {
+      "title": "Frequently <span class='text-gradient'>Asked Questions</span>",
+      "subtitle": "Common Questions",
+      "items": [
+        {
+          "question": "How can I order spare parts?",
+          "answer": "You can order spare parts in several ways: contact via phone or WhatsApp, send an email, fill out the contact form on the website, or visit our main headquarters in Riyadh."
+        },
+        {
+          "question": "What is the delivery time?",
+          "answer": "Delivery time varies depending on location and product. In major cities (24-48 hours), in other areas (3-5 working days). For custom order products (7-14 working days)."
+        },
+        {
+          "question": "Do you offer warranty on products?",
+          "answer": "Yes, all our products come with a warranty ranging from 6 months to one year depending on the product type. Warranty details are mentioned in the purchase invoice."
+        },
+        {
+          "question": "How can I ensure product quality?",
+          "answer": "All our products undergo quality control and safety standards. You can request free samples or visit our showroom to see product quality. We also hold ISO 9001:2015 quality certification."
+        }
+      ],
+      "cta": "Didn't find an answer to your question?",
+      "link": "Contact us directly"
+    }
+  },
+
+
+
+  
+  "servicesPage": {
+    "title": "Our Services",
+    "subtitle": "Integrated solutions to ensure your business continuity",
+    "description": "At A'mal Al-Qita' for Trading, we don't just provide spare parts. We offer integrated services designed to meet your operational needs and achieve the highest levels of satisfaction and efficiency. We strive to provide an exceptional experience that starts from the order and ends with after-sales service and ongoing technical support.",
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Services"
+    },
+    "products": {
+      "title": "Our Products",
+      "intro": "Original spare parts from the best international companies",
+      "items": ["Lights", "Seats", "Dashboard"],
+      "features": [
+        {
+          "icon": "✓",
+          "text": "Authentic products compliant with Gulf specifications"
+        },
+        {
+          "icon": "🔄",
+          "text": "Multiple options from various manufacturers"
+        },
+        {
+          "icon": "🎯",
+          "text": "Support in choosing the right part"
+        },
+        {
+          "icon": "⚡",
+          "text": "Competitive prices and fast delivery"
+        }
+      ],
+      "note": "Providing automotive spare parts from the best international suppliers"
+    },
+    "specializedServices": {
+      "title": "Our Specialized Services",
+      "intro": "Solutions specifically designed to meet our customers' needs",
+      "services": [
+        {
+          "id": 1,
+          "title": "Import on Demand",
+          "icon": "🌍",
+          "description": "We provide the possibility to import parts not available locally according to customer requests, in cooperation with a wide network of trusted global suppliers, ensuring quality and timely delivery.",
+          "subService": {
+            "title": "Local & International Delivery",
+            "description": "We offer fast and secure delivery services within the Kingdom and abroad, for both individual customers and companies/institutions, through our partners in the field."
+          }
+        },
+        {
+          "id": 2,
+          "title": "Petroleum Filling System Installation & Inspection",
+          "icon": "🛢️",
+          "description": "Providing installation, inspection, and maintenance services for petroleum tank filling and unloading systems, including pipes, valves, and connections. We work according to the highest industrial safety standards to ensure proper and safe operation in fuel facilities and distribution centers."
+        },
+        {
+          "id": 3,
+          "title": "Truck Inspection & Programming",
+          "icon": "🚛",
+          "description": "We provide accurate electronic inspection and programming services for truck systems using advanced diagnostic devices covering sensor systems, engine systems, and more. This helps in early fault detection and improves overall vehicle performance."
+        },
+        {
+          "id": 4,
+          "title": "Brake System Maintenance & Repair",
+          "icon": "🔧",
+          "description": "We provide professional maintenance and repair services for brake calipers and air blowers used in trucks and trailers. Using specialized tools and original parts, we ensure the system returns to its full performance with accurate inspection and workmanship warranty."
+        },
+        {
+          "id": 5,
+          "title": "Custom Astather Platform Beams Design",
+          "icon": "🎨",
+          "description": "We offer design and custom fabrication services for Astather platform beams with the highest quality, with the possibility of printing the customer's name or company logo on the beam. A professional service that reflects your company's identity and enhances the appearance of your fleet on the road."
+        }
+      ],
+      "learnMore": "Service Details →"
+    },
+    "targetSectors": {
+      "title": "Sectors We Serve",
+      "subtitle": "We meet the needs of multiple sectors with reliable and highly efficient solutions",
+      "description": "We serve a wide range of vital sectors that depend on the reliability and sustainability of operating and maintenance systems. We are a trusted partner for those looking for precise parts and durable spare parts.",
+      "sectors": [
+        {
+          "name": "Petroleum Packaging Factories & Facilities",
+          "icon": "🏭"
+        },
+        {
+          "name": "Land Transport Companies",
+          "icon": "🚚"
+        }
+      ],
+      "projectsCompleted": "projects completed",
+      "sectorDescription": "Integrated solutions for the {{sector}} sector"
+    },
+    "cta": {
+      "title": "Looking for integrated solutions for your needs?",
+      "description": "Our team of experts is ready to help you choose the optimal solution for your business",
+      "buttons": {
+        "consultation": "Request a quote",
+        "contact": "Contact Us"
+      }
+    },
+    "badges": {
+      "integratedServices": "Integrated Services",
+      "successPartners": "Success Partners"
+    }
+  },
+
+
+
+  
+
+  
+  "pricePage": {
+    "title": "Pricing & Quotes",
+    "subtitle": "Best truck spare parts from top global suppliers",
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Pricing & Offers"
+    },
+    
+    "pricing": {
+      "subtitle": "Pricing Plans",
+      "title": "Packages Tailored to Your Needs",
+      "description": "We offer a variety of packages designed specifically to meet your requirements with guaranteed quality and competitive prices",
+      "featuredBadge": "Most Popular",
+      "note": "* Prices may vary based on quantity and part type",
+      "plans": [
+        {
+          "name": "Basic Package",
+          "currency": "SAR",
+          "price": "2,500",
+          "period": "month",
+          "description": "Suitable for small workshops and beginners",
+          "features": [
+            "Free technical diagnosis",
+            "Phone support",
+            "Same-day delivery within city",
+            "3 months warranty"
+          ],
+          "buttonText": "Choose This Package",
+          "featured": false
+        },
+        {
+          "name": "Gold Package",
+          "currency": "SAR",
+          "price": "5,000",
+          "period": "month",
+          "description": "Best for medium-sized workshops",
+          "features": [
+            "All Basic Package features",
+            "Field technical support",
+            "Free delivery across KSA",
+            "Wholesale special prices",
+            "6 months warranty",
+            "Free technical training"
+          ],
+          "buttonText": "Choose This Package",
+          "featured": true
+        },
+        {
+          "name": "Premium Package",
+          "currency": "SAR",
+          "price": "10,000",
+          "period": "month",
+          "description": "Ideal for large companies and distributors",
+          "features": [
+            "All Gold Package features",
+            "Dedicated account manager",
+            "Supply priority",
+            "Special exclusive offers",
+            "Weekly field visits",
+            "Full 1-year warranty",
+            "Monthly performance reports"
+          ],
+          "buttonText": "Choose This Package",
+          "featured": false
+        }
+      ]
+    },
+    
+    "featuredParts": {
+      "title": "Best Truck Spare Parts from Top Global Companies",
+      "description": "We provide original and certified spare parts from major global companies specialized in trucks and heavy transport",
+      "ctaButton": "View Full Catalog",
+      "highlights": [
+        {
+          "icon": "fas fa-shield-alt",
+          "title": "Global Quality",
+          "description": "ISO certified parts meeting international specifications"
+        },
+        {
+          "icon": "fas fa-shipping-fast",
+          "title": "Fast Delivery",
+          "description": "Fast shipping across Saudi Arabia and Gulf countries"
+        },
+        {
+          "icon": "fas fa-tools",
+          "title": "Complete Technical Support",
+          "description": "Specialized technical team for consultations and support"
+        },
+        {
+          "icon": "fas fa-percentage",
+          "title": "Competitive Prices",
+          "description": "Best prices with discounts for bulk orders and regular customers"
+        }
+      ],
+      "brands": [
+        {
+          "icon": "fas fa-cog",
+          "name": "Bosch"
+        },
+        {
+          "icon": "fas fa-cogs",
+          "name": "Mercedes"
+        },
+        {
+          "icon": "fas fa-industry",
+          "name": "Volvo"
+        },
+        {
+          "icon": "fas fa-truck",
+          "name": "MAN"
+        }
+      ]
+    },
+    
+    "quoteForm": {
+      "title": "Request Custom Quote",
+      "subtitle": "Send your request details and we'll respond within 2 hours with the best quote",
+      "submitButton": "Send Request",
+      "submittingText": "Sending...",
+      "successMessage": "Your request has been sent successfully! We'll contact you within 2 hours.",
+      "errorMessage": "An error occurred, please try again.",
+      "privacyNote": "Your data is protected and not shared with any third party",
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Enter your full name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "example@email.com"
+        },
+        "request": {
+          "label": "Request Details",
+          "placeholder": "Enter your request details (part type, quantity, model...)"
+        }
+      },
+      "responseTime": {
+        "title": "Fast Response",
+        "description": "We respond to quote requests within 2 working hours"
+      },
+      "support": {
+        "title": "Technical Support",
+        "description": "Technical support team available 24/7 for consultations"
+      },
+      "discount": {
+        "title": "Special Discounts",
+        "description": "Discounts up to 30% for large orders"
+      }
+    }
+  },
+
+ 
+  
+  "qataPage": {
+    "title": "Our Products",
+    "subtitle": "Best truck spare parts from top global suppliers",
+    "categories": {
+      "all": "All Products",
+      "list": [
+        {
+          "id": "suspension",
+          "name": "Suspension & Shock Absorbers"
+        },
+        {
+          "id": "lighting",
+          "name": "Lighting"
+        },
+        {
+          "id": "body",
+          "name": "Body Parts"
+        },
+        {
+          "id": "needle",
+          "name": "Needle Parts"
+        },
+        {
+          "id": "lifting",
+          "name": "Lifting Legs"
+        },
+        {
+          "id": "towing",
+          "name": "Towing Hooks"
+        },
+        {
+          "id": "brakes",
+          "name": "Brakes & Discs"
+        },
+        {
+          "id": "axles",
+          "name": "Axles"
+        }
+      ]
+    },
+    
+    "noProducts": {
+      "title": "No products in this category",
+      "description": "Try selecting a different category",
+      "reset": "View All Products"
+    },
+    
+    "cta": {
+      "title": "Need Special Products?",
+      "description": "Contact us for special product requests or technical consultation",
+      "contact": "Contact Us Now"
+    },
+    
+    "products": [
+      {
+        "id": 1,
+        "name": "Complete Front Suspension for Trucks",
+        "category": "suspension",
+        "categoryName": "Suspension & Shock Absorbers",
+        "icon": "fas fa-car-alt",
+        "imageUrl": "/images/products/suspension.jpg"
+      },
+      {
+        "id": 2,
+        "name": "High Quality LED Headlight",
+        "category": "lighting",
+        "categoryName": "Lighting",
+        "icon": "fas fa-lightbulb",
+        "imageUrl": "/images/products/lighting.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Complete Side Door with Glass",
+        "category": "body",
+        "categoryName": "Body Parts",
+        "icon": "fas fa-car-crash",
+        "imageUrl": "/images/products/body.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Hydraulic Steering Needle",
+        "category": "needle",
+        "categoryName": "Needle Parts",
+        "icon": "fas fa-tachometer-alt",
+        "imageUrl": "/images/products/needle.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Hydraulic Lifting Leg 20 Tons",
+        "category": "lifting",
+        "categoryName": "Lifting Legs",
+        "icon": "fas fa-arrow-up",
+        "imageUrl": "/images/products/lifting.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Heavy Truck Towing Hook",
+        "category": "towing",
+        "categoryName": "Towing Hooks",
+        "icon": "fas fa-trailer",
+        "imageUrl": "/images/products/towing.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Front Brake Disc 400mm",
+        "category": "brakes",
+        "categoryName": "Brakes & Discs",
+        "icon": "fas fa-stop-circle",
+        "imageUrl": "/images/products/brakes.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Complete Rear Axle with Differential",
+        "category": "axles",
+        "categoryName": "Axles",
+        "icon": "fas fa-cogs",
+        "imageUrl": "/images/products/axles.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Complete Rear Suspension Kit",
+        "category": "suspension",
+        "categoryName": "Suspension & Shock Absorbers",
+        "icon": "fas fa-car-alt",
+        "imageUrl": "/images/products/suspension2.jpg"
+      },
+      {
+        "id": 10,
+        "name": "LED Tail Light",
+        "category": "lighting",
+        "categoryName": "Lighting",
+        "icon": "fas fa-lightbulb",
+        "imageUrl": "/images/products/lighting2.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Complete Hood Cover",
+        "category": "body",
+        "categoryName": "Body Parts",
+        "icon": "fas fa-car-crash",
+        "imageUrl": "/images/products/body2.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Front Brake Calipers Kit",
+        "category": "brakes",
+        "categoryName": "Brakes & Discs",
+        "icon": "fas fa-stop-circle",
+        "imageUrl": "/images/products/brakes2.jpg"
+      }
+    ]
+  },
+
+ 
+  "aboutHero": {
+    "badge": "About Us",
+    "title": "About Us",
+    "highlights": {
+      "quality": "Passion for Quality",
+      "reliability": "Commitment to Reliability",
+      "excellence": "Excellence in Performance"
+    },
+    "description": "We are a Saudi company specialized in trading and distributing spare parts, established to provide practical solutions that meet the needs of the local and regional market. We have a strong supply network and a team with deep expertise in the field, to be partners in continuity and efficiency.",
+    "buttons": {
+      "browseProducts": "Browse Products",
+      "contactUs": "Contact Us",
+      "downloadCatalog": "Download Catalog"
+    },
+    "stats": {
+      "years": "Years Experience",
+      "clients": "Satisfied Clients",
+      "products": "Available Products",
+      "partners": "International Partner"
+    },
+    "card": {
+      "vision": {
+        "title": "Our Vision",
+        "description": "To be the preferred partner in the spare parts field by providing high-quality products and reliable service."
+      },
+      "mission": {
+        "title": "Our Mission",
+        "description": "Providing comprehensive solutions that meet our customers' needs with quality, efficiency, and innovation."
+      },
+      "values": {
+        "title": "Our Values",
+        "description": "Quality, Credibility, Innovation, Partnership"
+      }
+    }
+  },
+  "hero": {
+    "badge": "Leading Company",
+    "title": "Amal Al-Qata <span class='text-accent'>Trading</span> Company",
+    "description": "We provide integrated solutions in the spare parts field with global quality and reliable service that enhance the continuity of our clients' business.",
+    "browseProducts": "Browse Products",
+    "freeConsultation": "Free Consultation",
+    "years": "Years Experience",
+    "certifiedQuality": "Certified Quality",
+    "qualityDescription": "All our products are certified with international specifications and comply with the highest quality standards.",
+    "isoCertificate": "ISO Certificate"
+  },
+
+  "servicesPagess": {
+    "heroServices": {
+      "badge": "Our Services",
+      "title": "Integrated Solutions Supporting Your Business Continuity",
+      "description": "At A'amal Al-Qeta'a Trading Company, we go beyond just providing spare parts. We offer comprehensive services designed to meet our clients' needs and achieve the highest levels of satisfaction and efficiency. We are committed to delivering an exceptional experience, starting from the order process and extending to after-sales service and continuous technical support.",
+      "features": [
+        {
+          "icon": "fas fa-headset",
+          "title": "Comprehensive Technical Support",
+          "description": "Specialized technical support team available 24/7 to resolve all technical inquiries"
+        },
+        {
+          "icon": "fas fa-shipping-fast",
+          "title": "Fast Delivery",
+          "description": "Delivery network covering all areas with guaranteed arrival of parts on time"
+        }
+      ],
+      "ctaPrimary": "Get a Free Consultation",
+      "ctaSecondary": "View All Services",
+      "cardIcon": "fas fa-handshake",
+      "cardTitle": "Comprehensive Partnership",
+      "cardDescription": "We work as a strategic partner for your business growth through comprehensive support solutions that ensure the continuity of your operations",
+      "stats": [
+        {
+          "value": "24/7",
+          "label": "Continuous Technical Support"
+        },
+        {
+          "value": "98%",
+          "label": "Customer Satisfaction"
+        },
+        {
+          "value": "48h",
+          "label": "Maximum Delivery Time"
+        }
+      ],
+      "guarantee": "Service Warranty"
+    }
+  },
+
+  
+  "contactPages": {
+    "heroContact": {
+      "badge": "Contact Us",
+      "title": "We Are Here to Help You!",
+      "description": "Our team of experts is ready to answer your inquiries and provide the necessary support. Contact us today to get the best solutions for your needs.",
+      "features": [
+        {
+          "icon": "fas fa-phone-alt",
+          "title": "Call Us",
+          "description": "Contact our sales and support team 24/7",
+          "link": "tel:+966123456789",
+          "linkText": "+966 12 345 6789"
+        },
+        {
+          "icon": "fas fa-envelope",
+          "title": "Email",
+          "description": "Send your inquiry and we will respond as soon as possible",
+          "link": "mailto:info@example.com",
+          "linkText": "info@example.com"
+        }
+      ],
+      "ctaPrimary": "Contact Us Now",
+      "ctaSecondary": "Visit Main Office",
+      "cardIcon": "fas fa-headset",
+      "cardTitle": "Start a Conversation with Us",
+      "cardSubtitle": "We will respond within 24 hours",
+      "formLabels": {
+        "name": " Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "message": "Your Message"
+      },
+      "formPlaceholders": {
+        "name": "Enter your  name",
+        "email": "example@email.com",
+        "phone": "+966 5X XXX XXXX",
+        "message": "How can we help you?"
+      },
+      "submitButton": "Send Message",
+      "responseTime": "Average response time: 2-4 hours"
+    }
+  },
+
+
+  "blogPage": {
+    "heroBlog": {
+      "badge": "Blog",
+      "title": "Deeper Knowledge...<br/>Better Decisions",
+      "description": "In a rapidly evolving world, knowledge remains a fundamental element in making the right decisions. Through Aamal Al-Qitaa Trading Company's blog, we share the latest updates, technical advice, and market analyses in the field of spare parts, transportation, heavy equipment, and petroleum packaging systems.",
+      "features": [
+        {
+          "icon": "fas fa-newspaper",
+          "title": "Exclusive Articles",
+          "description": "Latest updates and tips in the field of spare parts and transportation"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Market Analysis",
+          "description": "Studies and future industry trends"
+        }
+      ],
+      "ctaPrimary": "Browse Articles",
+      "ctaSecondary": "Browse Categories",
+      "cardIcon": "fas fa-blog",
+      "cardTitle": "Specialized Blog",
+      "cardSubtitle": "Be the first to know about everything new",
+      "responseTime": "Weekly Updated Content"
+    },
+    "categories": {
+      "title": "Our Focus Areas",
+      "subtitle": "We cover a wide range of specialized topics",
+      "items": [
+        {
+          "icon": "fas fa-cogs",
+          "title": "Spare Parts",
+          "description": "Latest products and technical maintenance tips",
+          "count": "45"
+        },
+        {
+          "icon": "fas fa-truck-moving",
+          "title": "Transportation & Equipment",
+          "description": "Developments in transportation and heavy equipment market",
+          "count": "32"
+        },
+        {
+          "icon": "fas fa-oil-can",
+          "title": "Petroleum Packaging Systems",
+          "description": "Modern technologies and new standards",
+          "count": "28"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Market Analysis",
+          "description": "Studies and future industry trends",
+          "count": "39"
+        }
+      ]
+    },
+    "articles": {
+      "title": "Latest Articles",
+      "subtitle": "The latest we've published on our blog",
+      "items": [],
+      "showMore": "View All Articles",
+      "noArticles": "No articles currently",
+      "noArticlesDescription": "New articles will be published soon",
+      "readTime": "Read Time",
+      "publishedOn": "Published on",
+      "author": "Author"
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Subscribe to our newsletter to receive the latest articles and updates directly to your email",
+      "placeholder": "Your Email",
+      "button": "Subscribe Now",
+      "note": "We promise not to share your email with any third party",
+      "success": "Thank you for subscribing!",
+      "error": "An error occurred, please try again"
+    },
+    "editors": {
+      "title": "Specialized Writers & Editors",
+      "subtitle": "Our Writing Team",
+      "description": "Content is presented by a selection of experts and specialists in industrial fields",
+      "articles": "article",
+      "reads": "read",
+      "experience": "years experience"
+    },
+    "filters": {
+      "all": "All",
+      "latest": "Latest",
+      "popular": "Most Read",
+      "featured": "Featured",
+      "sortBy": "Sort by",
+      "searchPlaceholder": "Search in articles..."
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page",
+      "of": "of"
+    }
+  },
+  "blogPosts": {
+    "recentPosts": "Recent Posts",
+    "relatedPosts": "Related Posts",
+    "share": "Share",
+    "tags": "Tags",
+    "category": "Category",
+    "comments": "Comments",
+    "leaveComment": "Leave a Comment",
+    "commentPlaceholder": "Write your comment here...",
+    "postComment": "Post Comment",
+    "views": "Views",
+    "likes": "Likes"
+  },
+
+  
+  "productsPages": {
+    "hero": {
+      "title": "Our Products",
+      "subtitle": "Quality and performance like no other",
+      "description": "We provide a comprehensive range of spare parts for trailers, trucks, and petroleum equipment"
+    },
+    "ourKey": {
+      "title": "Our Key",
+      "description": "Try the spare parts you choose - with the quality you deserve"
+    },
+    "trailerParts": {
+      "badge": "Trailer Spare Parts",
+      "title": "Trailer Spare Parts",
+      "subtitle": "Everything your trailer needs - quality and safety on the road",
+      "description": "We provide a comprehensive range of spare parts for heavy and light trailers that serve transportation and logistics companies, and contribute to enhancing safety and performance on the road. Our products are supported by European and Gulf safety standards.",
+      "features": [
+        "Suitable for heavy and light trailers",
+        "European and Gulf standards",
+        "Enhance road safety",
+        "Serve transportation and logistics"
+      ]
+    },
+    "chineseTrucks": {
+      "badge": "Chinese Truck Spare Parts",
+      "title": "Chinese Truck Spare Parts",
+      "subtitle": "Power that moves with confidence",
+      "description": "At Aamal Alqitaa Trading Company, we provide a comprehensive and selected range of Chinese truck spare parts. Widely used in the Saudi and Gulf markets. Original parts that conform to Gulf specifications, ensuring strong performance and reliability in all conditions.",
+      "marketCoverage": "Used in the Saudi and Gulf markets",
+      "benefits": [
+        {
+          "title": "Original Parts",
+          "description": "Conform to the original specifications of Chinese trucks"
+        },
+        {
+          "title": "Strong Performance",
+          "description": "Withstand the harshest conditions and intensive use"
+        },
+        {
+          "title": "High Reliability",
+          "description": "Guaranteed quality and continuous performance"
+        }
+      ],
+      "buttonText": "View Collection"
+    },
+    "petroleumEquipment": {
+      "badge": "Petroleum Loading and Unloading Spare Parts",
+      "title": "Petroleum Loading and Unloading Spare Parts",
+      "subtitle": "Safe and reliable loading and unloading components for petroleum products",
+      "description": "We provide integrated solutions for petroleum loading and unloading spare parts at fuel stations, tankers, and distribution centers. All our products are selected from approved suppliers and used in sensitive projects that require the highest degrees of safety and quality. All products are certified and used in major oil and gas facilities.",
+      "applications": [
+        {
+          "name": "Fuel Stations",
+          "icon": "gas-station"
+        },
+        {
+          "name": "Tankers",
+          "icon": "tanker"
+        },
+        {
+          "name": "Distribution Centers",
+          "icon": "warehouse"
+        }
+      ],
+      "certification": "Certified and used in major oil and gas facilities",
+      "buttonText": "View Collection"
+    }
+  },
+  "commonp": {
+    "europeanStandards": "European Standards",
+    "gccStandards": "GCC Standards",
+    "oilGasFacilities": "Used in major oil and gas facilities"
+  },
+
+    "featuresPage": {
+    "title": "Our Scale",
+    "items": [
+      "Commitment to European safety standards",
+      "High endurance in desert environments and heavy loads",
+      "Always available in various capacities",
+      "Technical support to choose the most suitable for your trailer"
+    ]
+  },
+
+  
+  "whyUsPage": {
+    "title": "Why Choose Us",
+    "subtitle": "We deliver exceptional value that makes us the preferred choice for our clients",
+    "items": [
+
+        {
+        "id": 1,
+        "icon": "fas fa-certificate",
+        "title": "High Quality & Certified",
+        "description": "All our products carry international quality certificates and comply with highest standards",
+        "color": "#f1f5f9"
+      },
+     
+      {
+        "id": 2,
+        "icon": "fas fa-tags",
+        "title": "Competitive Prices & Diverse Options",
+        "description": "We offer the best market prices with flexible payment options and diverse offers",
+        "color": "#f1f5f9"
+      },
+       {
+        "id": 3,
+        "icon": "fas fa-users",
+        "title": "Expert and Professional Team",
+        "description": "We have a team of highly skilled experts with specialized training in all fields",
+        "color": "#f1f5f9"
+      },
+      {
+        "id": 4,
+        "icon": "fas fa-bolt",
+        "title": "Fast Response & Flexible Approach",
+        "description": "We work around the clock to provide quick solutions with complete flexibility in meeting your requirements",
+        "color": "#f1f5f9"
+      },
+      {
+        "id": 5,
+        "icon": "fas fa-shield-alt",
+        "title": "Full Commitment to Quality & Warranty",
+        "description": "We guarantee all our products and services with long-term warranty periods and comprehensive maintenance policies",
+        "color": "#f1f5f9"
+      },
+      {
+        "id": 6,
+        "icon": "fas fa-rocket",
+        "title": "Fast & Effective Service",
+        "description": "We provide responsive and effective after-sales services to ensure uninterrupted business continuity",
+        "color": "#f1f5f9"
+      }
+    ],
+    "stats": {
+      "clients": "Satisfied Clients",
+      "satisfaction": "Satisfaction Rate",
+      "support": "Technical Support",
+      "experience": "Years Experience"
+    }
+  },
+
+  
+  "partnersPage": {
+    "title": "Our Partners",
+    "subtitle": "We are proud to partner with leading global brands",
+    "description": "We are proud to partner with global brands and certified suppliers in China, Europe, and the Middle East. This enables us to meet market requirements with high efficiency. Our collaboration with partners allows us to provide original and certified products, backed by warranty and technical support.",
+    "partners": [
+      {
+        "id": 1,
+        "name": "SINOTRUK",
+        "logo": "SINOTRUK",
+        "category": "Automotive Industry",
+        "region": "China",
+        "color": "#2D5BFF"
+      },
+      {
+        "id": 2,
+        "name": "FREN SISTEMLERİ",
+        "logo": "FREN",
+        "category": "Brake Systems",
+        "region": "Turkey",
+        "color": "#FF6B35"
+      },
+      {
+        "id": 3,
+        "name": "BTE",
+        "logo": "BTE",
+        "category": "Technical Solutions",
+        "region": "Europe",
+        "color": "#00B894"
+      },
+      {
+        "id": 4,
+        "name": "BETTER HOLDING",
+        "logo": "BETTER",
+        "category": "Investment & Development",
+        "region": "Middle East",
+        "color": "#9B59B6"
+      },
+      {
+        "id": 5,
+        "name": "SXP",
+        "logo": "SXP",
+        "category": "Industrial Solutions",
+        "region": "Europe",
+        "color": "#F1C40F"
+      }
+    ],
+    "stats": {
+      "years": "Partnership Years",
+      "countries": "Countries",
+      "projects": "Joint Projects",
+      "satisfaction": "Partner Satisfaction"
+    }
+  },
+
+  
+  "certificationsPages": {
+    "title": "Certifications",
+    "subtitle": "Global accreditation ensuring our service quality",
+    "description": "We are certified with ISO 9001:2015 Quality Management System, reflecting our continuous commitment to improvement and delivering service that exceeds expectations.",
+    "certificates": [
+      {
+        "id": 1,
+        "title": "ISO 9001:2015 Certificate",
+        "type": "ISO 9001:2015",
+        "companyName": "AMAL AL-QATA FOR TRADING COMPANY",
+        "address": "4096 Jabal Abi 7007 Al Bar Al Badia Dair 14518 Riyadh, Kingdom of Saudi Arabia",
+        "scope": "Wholesale and retail of truck, trailer, and automobile spare parts.",
+        "certificateNo": "AMER17744",
+        "issueDate": "03/06/2023",
+        "expiryDate": "03/06/2028",
+        "issuedBy": "AMERICAN QUALITY STANDARDS REGISTRATION PVT LTD",
+        "issuerAddress": "Registered Office: 1000 Laxmi Nagar Road, Phase 2, Gurgaon, Haryana 122001, India",
+        "issuerPhone": "+91-120-4567890",
+        "accreditation": "IAF",
+        "accreditationFull": "International Accreditation Forum"
+      }
+    ],
+    "stats": {
+      "valid": "Valid Certificates",
+      "years": "Accreditation Years",
+      "standards": "Global Standards",
+      "renewal": "Annual Renewal"
+    }
+  },
+
+  
+  "chineseTrucksPage": {
+    "title": "Chinese Trucks Spare Parts",
+    "subtitle": "Parts That Move With Confidence",
+    "description": "At Amal Al-Qata Trading Company, we provide a comprehensive and selected range of Chinese truck spare parts. Widely used in the Saudi and Gulf markets. We work to meet the maintenance and renewal requirements for all types of Chinese trucks.",
+   
+  "brands": [
+    {
+      "id": 1,
+      "name": "FAW",
+      "logo": "FAW",
+      "imageUrl": "/images/Asset-40.webp",
+      "description": "Genuine parts for heavy and medium trucks",
+      "color": "#F3F4F6"
+    },
+    {
+      "id": 2,
+      "name": "SINOTRUK",
+      "logo": "SINOTRUK",
+      "imageUrl": "/images/Asset-39 (1).webp",
+      "description": "Pioneer in global Chinese truck manufacturing",
+      "color": "#F3F4F6"
+    },
+    {
+      "id": 3,
+      "name": "SHACMAN",
+      "logo": "SHACMAN",
+      "imageUrl": "/images/Asset-38.webp",
+      "description": "Compatible parts with high quality",
+      "color": "#F3F4F6"
+    },
+    {
+      "id": 4,
+      "name": "FOTON",
+      "logo": "FOTON",
+      "imageUrl": "/images/Asset-37.webp",
+      "description": "Integrated solutions for maintenance and repair",
+      "color": "#F3F4F6"
+    },
+    {
+      "id": 5,
+      "name": "HOWO",
+      "logo": "HOWO",
+      "imageUrl": "/images/Asset-39 (1).webp",
+      "description": "Certified parts at competitive prices",
+      "color": "#F3F4F6"
+    }
+  ],
+    "partsCategories": [
+      {
+        "id": 1,
+        "title": "Interior & Body Parts",
+        "icon": "fas fa-car",
+        "color": "#0d1b3e",
+        "parts": ["Seats", "Dashboard", "Doors", "Glass", "Hinges", "Door Locks"]
+      },
+      {
+        "id": 2,
+        "title": "Electrical Systems",
+        "icon": "fas fa-bolt",
+        "color": "#0d1b3e",
+        "parts": ["Wires", "Battery", "Alternator", "Electric Motors", "Lights", "Screens"]
+      },
+      {
+        "id": 3,
+        "title": "Suspension & Brake Systems",
+        "icon": "fas fa-cogs",
+        "color": "#0d1b3e",
+        "parts": ["Brake Pads", "Hubs", "Shock Absorbers", "Springs", "Axles", "Brakes"]
+      }
+    ],
+    "partsTable": {
+      "title": "Available Parts Types",
+      "columns": [
+        {
+          "id": 1,
+          "title": "Interior & Body Parts",
+          "icon": "fas fa-car-alt",
+          "items": ["Hood", "Lights", "Seats", "Dashboard", "Doors", "Windshield", "Mirrors"]
+        },
+        {
+          "id": 2,
+          "title": "Electrical Systems",
+          "icon": "fas fa-car-battery",
+          "items": ["Wires", "Sensors", "Computer", "Lights", "Thermostat", "Starter Heads"]
+        },
+        {
+          "id": 3,
+          "title": "Modification Systems",
+          "icon": "fas fa-tachometer-alt",
+          "items": ["Request Receivers", "Cylinder Heads", "Turbo", "Turbo Charging", "Air Regulators"]
+        }
+      ]
+    },
+    "features": [
+      {
+        "id": 1,
+        "title": "Original products matching OEM specifications",
+        "icon": "fas fa-check-circle",
+        "color": "#0d1b3e"
+      },
+      {
+        "id": 2,
+        "title": "Multiple options from manufacturers",
+        "icon": "fas fa-check-circle",
+        "color": "#0d1b3e"
+      },
+      {
+        "id": 3,
+        "title": "Support in choosing the right part",
+        "icon": "fas fa-check-circle",
+        "color": "#0d1b3e"
+      },
+      {
+        "id": 4,
+        "title": "Competitive prices and fast delivery",
+        "icon": "fas fa-check-circle",
+        "color": "#0d1b3e"
+      }
+    ],
+    "stats": {
+      "parts": "Spare Parts",
+      "brands": "Brands",
+      "delivery": "Fast Delivery",
+      "warranty": "Quality Warranty"
+    }
+  },
+
+  
+  "trailerCuttingPage": {
+    "title": "Trailer Spare Parts",
+    "subtitle": "Everything your trailer needs for quality and safety on the road",
+    "description": "We provide a complete range of heavy and light trailer spare parts that serve transportation and logistics companies, and contribute to enhancing safety and performance on the road",
+    "partsCategories": [
+      {
+        "id": 1,
+        "title": "Assistants & Boabs",
+        "icon": "fas fa-truck-monster",
+        "color": "#0d1b3e",
+        "parts": [
+          {
+            "name": "Hubs",
+            "icon": "fas fa-cog",
+            "description": "Rotating discs for wheel movement maintenance"
+          },
+          {
+            "name": "Axles",
+            "icon": "fas fa-sync-alt",
+            "description": "Axial systems that bear trailer weight and distribute load"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Discs & Air Systems",
+        "icon": "fas fa-compress-arrows-alt",
+        "color": "#0d1b3e",
+        "parts": [
+          {
+            "name": "Brake Discs",
+            "icon": "fas fa-stop-circle",
+            "description": "High endurance brake discs for effective braking"
+          },
+          {
+            "name": "Air Compressors",
+            "icon": "fas fa-wind",
+            "description": "Advanced air systems for brakes and tires operation"
+          },
+          {
+            "name": "Brake Pads",
+            "icon": "fas fa-oil-can",
+            "description": "High quality brake pads for improved braking"
+          }
+        ]
+      }
+    ],
+    "features": [
+      {
+        "id": 1,
+        "title": "Commitment to European Safety Standards",
+        "icon": "fas fa-shield-alt",
+        "color": "#0d1b3e",
+        "description": "All parts comply with European and international specifications"
+      },
+      {
+        "id": 2,
+        "title": "High endurance in desert environments and heavy loads",
+        "icon": "fas fa-sun",
+        "color": "#0d1b3e",
+        "description": "Special design for harsh desert conditions and heavy loads"
+      },
+      {
+        "id": 3,
+        "title": "Always available in various quantities",
+        "icon": "fas fa-boxes",
+        "color": "#0d1b3e",
+        "description": "Continuous supply of all parts in quantities that meet market needs"
+      },
+      {
+        "id": 4,
+        "title": "Technical support to choose the best for your trailer",
+        "icon": "fas fa-headset",
+        "color": "#0d1b3e",
+        "description": "Specialized technical team to help you choose the right parts"
+      }
+    ],
+    "stats": {
+      "parts": "Part Types",
+      "durability": "Years Warranty",
+      "delivery": "Fast Delivery",
+      "clients": "Satisfied Clients"
+    }
+  },
+
+  
+  "petroleumPage": {
+    "title": "Petroleum Loading & Unloading Spare Parts",
+    "subtitle": "Safe and Reliable Loading/Unloading Components for Petroleum Products",
+    "description": "We provide integrated solutions for petroleum loading and unloading systems in fuel stations, tankers, and distribution centers. All our products are selected from certified suppliers and used in sensitive projects requiring the highest levels of safety and quality. All products are certified and used in major oil and gas facilities.",
+    "availableParts": [
+      {
+        "id": 1,
+        "title": "Pressure Relief Valves",
+        "icon": "fas fa-tachometer-alt",
+        "color": "#0d1b3e",
+        "description": "Pressure control systems to maintain safety and prevent explosions"
+      },
+      {
+        "id": 2,
+        "title": "Hydraulic Loading Arms",
+        "icon": "fas fa-cogs",
+        "color": "#0d1b3e",
+        "description": "Advanced hydraulic systems for safe petroleum material transfer"
+      },
+      {
+        "id": 3,
+        "title": "Loading/Unloading Couplings",
+        "icon": "fas fa-link",
+        "color": "#0d1b3e",
+        "description": "Certified API couplings for leak-free fuel transfer"
+      },
+      {
+        "id": 4,
+        "title": "Heavy- and Light-Duty Fuel Nozzles",
+        "icon": "fas fa-gas-pump",
+        "color": "#0d1b3e",
+        "description": "Heavy and light nozzles designed for different fuel types"
+      },
+      {
+        "id": 5,
+        "title": "Filters & Flow Meters",
+        "icon": "fas fa-filter",
+        "color": "#0d1b3e",
+        "description": "Precise filtration and measurement systems for fuel quality monitoring"
+      },
+      {
+        "id": 6,
+        "title": "High-Temperature, High-Pressure Fuel Hoses",
+        "icon": "fas fa-oil-can",
+        "color": "#0d1b3e",
+        "description": "Hoses designed to withstand high temperatures and pressure"
+      }
+    ],
+    "applications": [
+      {
+        "id": 1,
+        "title": "Oil & Gas Storage Facilities",
+        "icon": "fas fa-warehouse",
+        "color": "#0d1b3e"
+      },
+      {
+        "id": 2,
+        "title": "Petroleum Distribution Facilities",
+        "icon": "fas fa-truck-moving",
+        "color": "#0d1b3e"
+      },
+      {
+        "id": 3,
+        "title": "Loading Stations",
+        "icon": "fas fa-gas-pump",
+        "color": "#0d1b3e"
+      },
+      {
+        "id": 4,
+        "title": "Fuel Tankers",
+        "icon": "fas fa-truck",
+        "color": "#0d1b3e"
+      }
+    ],
+    "advantages": [
+      {
+        "id": 1,
+        "title": "Certified by International Bodies",
+        "icon": "fas fa-certificate",
+        "color": "#0d1b3e"
+      },
+      {
+        "id": 2,
+        "title": "Resistant to Harsh Conditions",
+        "icon": "fas fa-sun",
+        "color": "#0d1b3e"
+      },
+      {
+        "id": 3,
+        "title": "International Specifications",
+        "icon": "fas fa-globe",
+        "color": "#0d1b3e"
+      },
+      {
+        "id": 4,
+        "title": "Easy Maintenance & Long Lifespan",
+        "icon": "fas fa-tools",
+        "color": "#0d1b3e"
+      }
+    ],
+    "stats": {
+      "certifications": "Certifications",
+      "projects": "Completed Projects",
+      "safety": "Accident-Free Years",
+      "clients": "Industrial Clients"
+    }
+  },
+
+  "petroHero": {
+    "badge": "Our Specialized Services",
+    "title": "Petroleum Loading and Unloading Spare Parts",
+    "description": "Safe and reliable loading and unloading components for petroleum products",
+    "ctaPrimary": "Request Technical Consultation",
+    "ctaSecondary": "Download Catalog",
+    "stats": [
+      { "value": "100%", "label": "Quality Guaranteed" },
+      { "value": "24/7", "label": "Technical Support" },
+      { "value": "500+", "label": "Satisfied Clients" }
+    ],
+    "features": [
+      {
+        "icon": "fas fa-shield-alt",
+       "title": "High Quality",
+        "description": "Spare parts manufactured to the highest quality and safety standards"
+      },
+      {
+        "icon": "fas fa-cogs",
+        "title": "Full Compatibility",
+        "description": "Compatible with all petroleum loading and unloading systems"
+      },
+      {
+        "icon": "fas fa-clock",
+        "title": "Fast Delivery",
+        "description": "Fast shipping to ensure continuity of your operations"
+      }
+    ],
+    "cardTitle": "Integrated Petroleum Solutions",
+    "cardDescription": "We provide a comprehensive range of spare parts and components for petroleum loading and unloading systems",
+    "cardIcon": "fas fa-oil-can",
+    "guarantee": "One Year Quality Warranty"
+  },
+
+    "chineHero": {
+    "badge": "Our Specialized Services",
+    "title": "Chinese Truck Spare Parts",
+    "description": "Power that moves with confidence",
+    "ctaPrimary": "Inquire About Parts",
+    "ctaSecondary": "Order Spare Parts",
+    "stats": [
+      { "value": "98%", "label": "Parts Availability" },
+      { "value": "24h", "label": "Delivery Service" },
+      { "value": "10K+", "label": "Available Parts" }
+    ],
+    "features": [
+      {
+        "icon": "fas fa-truck",
+        "title": "All Brands",
+        "description": "Spare parts for all Chinese truck brands"
+      },
+      {
+        "icon": "fas fa-tools",
+        "title": "Original & Compatible",
+        "description": "Original parts and high-quality compatible parts"
+      },
+      {
+        "icon": "fas fa-headset",
+        "title": "Technical Support",
+        "description": "Specialized technical support team to help you choose"
+      }
+    ],
+    "cardTitle": "Comprehensive Supply Network",
+    
+    "cardDescription": "We provide all Chinese truck spare parts with quality guarantee and fast delivery",
+    "cardIcon": "fas fa-truck-moving",
+    "guarantee": " Quality Warranty"
+  },
+
+
+  "pricesRequest": {
+    "title": "Accessories from Top Companies",
+    "description": "Everything your trailer needs with quality and safety on the road",
+    "ctaPrimary": "ٌRequest a quote"
+  },
+
+  "productsPageh": {
+    "heroProducts": {
+      "badge": "Our Products",
+      "title": "Spare Parts Solutions You Need - With the Quality You Deserve",
+      "description": "At A'amal Al-Qeta'a Trading Company, we offer a comprehensive range of original and high-quality spare parts for various industrial and commercial applications. We guarantee the quality and outstanding performance of all our products.",
+      "features": [
+        {
+          "icon": "fas fa-certificate",
+          "title": "Certified Quality",
+          "description": "All our products undergo rigorous quality checks and possess international specification certificates"
+        },
+        {
+          "icon": "fas fa-truck-fast",
+          "title": "Fast Delivery",
+          "description": "Instant delivery service for all types of spare parts in various regions"
+        }
+      ],
+      "ctaPrimary": "Browse Catalog",
+      "ctaSecondary": "Free Consultation",
+      "cardIcon": "fas fa-cogs",
+      "cardTitle": "Uncompromising Quality",
+      "cardDescription": "We are committed to providing spare parts that meet the highest international quality standards, ensuring outstanding performance and longer lifespan.",
+      "stats": [
+        {
+          "value": "100%",
+          "label": "Original Quality"
+        },
+        {
+          "value": "5000+",
+          "label": "Different Products"
+        },
+        {
+          "value": "24h",
+          "label": "Maximum Delivery Time"
+        }
+      ],
+      "guarantee": "Quality Warranty"
+    }
+  },
+
+
+  "chineTrucksQata": {
+    "title": "Available Spare Parts Types",
+    "noData": "Loading data...",
+    "sections": [
+      {
+        "title": "Engine Components",
+        "icon": "fas fa-truck-pickup",
+        "items": [
+          {
+            "text": "Pistons",
+            "icon": "fas fa-car-side"
+          },
+          {
+            "text": "Piston Rings",
+            "icon": "fas fa-car"
+          },
+          {
+            "text": "Cylinder Heads",
+            "icon": "fas fa-cogs"
+          },
+          {
+            "text": "Turbochargers",
+            "icon": "fas fa-screwdriver"
+          }
+        ]
+      },
+      {
+        "title": "Cooling Systems",
+        "icon": "fas fa-cogs",
+        "items": [
+          {
+            "text": "Radiators",
+            "icon": "fas fa-tools"
+          },
+          {
+            "text": "Fans",
+            "icon": "fas fa-braille"
+          },
+          {
+            "text": "Thermostats",
+            "icon": "fas fa-car-battery"
+          }
+        ]
+      },
+      {
+        "title": "Electrical Systems",
+        "icon": "fas fa-chair",
+        "items": [
+          {
+            "text": "Alternators",
+            "icon": "fas fa-couch"
+          },
+          {
+            "text": "Sensors",
+            "icon": "fas fa-bolt"
+          },
+          {
+            "text": "Control Units (ECUs)",
+            "icon": "fas fa-bolt"
+          },
+          {
+            "text": "Wiring Harnesses",
+            "icon": "fas fa-bolt"
+          }
+        ]
+      },
+      {
+        "title": "Suspension & Brake Systems",
+        "icon": "fas fa-microchip",
+        "items": [
+          {
+            "text": "Brake Pads",
+            "icon": "fas fa-desktop"
+          },
+          {
+            "text": "Brake Discs (Rotors)",
+            "icon": "fas fa-broadcast-tower"
+          },
+          {
+            "text": "Wheel Bolts",
+            "icon": "fas fa-broadcast-tower"
+          },
+          {
+            "text": "Shock Absorbers",
+            "icon": "fas fa-broadcast-tower"
+          }
+        ]
+      },
+      {
+        "title": "Interior & Exterior Parts",
+        "icon": "fas fa-microchip",
+        "items": [
+          {
+            "text": "Hoods",
+            "icon": "fas fa-desktop"
+          },
+          {
+            "text": "Headlights",
+            "icon": "fas fa-broadcast-tower"
+          },
+          {
+            "text": "Seats",
+            "icon": "fas fa-broadcast-tower"
+          },
+          {
+            "text": "Dashboards",
+            "icon": "fas fa-broadcast-tower"
+          }
+        ]
+      }
+    ]
+  },
+
+
+  "servicesPages": {
+    "specializedServices": {
+      "title": "Our Specialized Services",
+      "description": "We offer a comprehensive range of specialized services that meet all our customers' needs in the field of truck spare parts and industrial equipment.",
+      "service1": {
+        "title": "After-Sales Service & Technical Assembly",
+        "description": "We believe that the relationship with the customer does not end after the sale. Therefore, we provide specialized technical support and technical guidance to ensure optimal use of parts and achieve the required performance."
+      },
+      "service2": {
+        "title": "Local & International Delivery",
+        "description": "We provide fast and secure delivery services within the Kingdom and internationally, whether for individual customers or companies and institutions, through our logistics partners."
+      },
+      "service3": {
+        "title": "Import on Demand",
+        "description": "We provide the possibility of importing parts that are not locally available according to customer requirements, in cooperation with a wide network of trusted global suppliers, while ensuring quality and timely delivery."
+      },
+      "service4": {
+        "title": "Custom Curtain Sider Tarpaulin Tailoring",
+        "description": "We provide custom design and tailoring services for curtain sider tarpaulins with the highest quality, with the possibility of printing the customer's name or company logo on the tarp. A professional service that reflects your company's identity and enhances the appearance of your fleet on the road."
+      },
+      "service5": {
+        "title": "Truck Inspection & Programming",
+        "description": "We provide precise electronic inspection and programming services for truck systems using advanced diagnostic devices covering sensor systems, ABS, engine, and others. This helps in early fault detection and improves the overall performance of the vehicle."
+      },
+      "service6": {
+        "title": "Installation & Inspection of Petroleum Loading/Unloading Systems",
+        "description": "We provide installation, inspection, and maintenance services for petroleum tanker loading and unloading systems, including arms, valves, and connections. We work according to the highest industrial safety standards to ensure proper and secure operation in fuel facilities and distribution centers."
+      },
+      "service7": {
+        "title": "Maintenance & Repair of Air Valves & Brake Chambers",
+        "description": "We provide professional maintenance and repair services for brake chambers and air valves used in trucks and trailers, using specialized tools and original parts. We ensure the system returns to its full performance with precise inspection and warranty on the work performed."
+      }
+    }
+  },
+
+  
+  "servicesPag": {
+    "targetSectors": {
+      "title": "Sectors We Serve",
+      "subtitle": "We meet the needs of multiple sectors with reliable and highly efficient solutions",
+      "description": "We serve a wide range of vital sectors that depend on the reliability and sustainability of operating and maintenance systems. We are a trusted partner for those looking for precise parts and lasting spare parts.",
+      "sectors": [
+        {
+          "name": "Oil Packing Factories and Facilities",
+          "icon": "fas fa-industry"
+        },
+        {
+          "name": "Land Transport Companies",
+          "icon": "fas fa-truck"
+        },
+        {
+          "name": "Construction Companies & Heavy Equipment",
+          "icon": "fas fa-hard-hat"
+        },
+        {
+          "name": "Government and Private Entities",
+          "icon": "fas fa-landmark"
+        },
+        {
+          "name": "Workshops and Process Outputs",
+          "icon": "fas fa-tools"
+        }
+      ],
+      "projectsCompleted": "Completed Project",
+      "sectorDescription": "Integrated solutions for the {{sector}} sector"
+    }
+  },
+
+ 
+  "trailerQata": {
+    "title": "Available Spare Parts Types",
+    "subtitle": "Best trailer spare parts with highest quality and competitive prices",
+    "available": "Available",
+    "inquiryButton": "Inquire About Price",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Shock Absorbers & Air Springs",
+        "image": "/images/Asset-87.webp",
+        "description": "High quality assistants and bolabeen parts",
+        "items": ["Various sizes", "High quality", "Comprehensive warranty"]
+      },
+      {
+        "id": 2,
+        "title": "Brake Discs & Calipers",
+        "image": "/images/Asset-90.webp",
+        "description": "Disks and buakem with standard specifications",
+        "items": ["Rust resistant", "High durability", "Easy installation"]
+      },
+      {
+        "id": 3,
+        "title": "Towing Kingpins",
+        "image": "/images/Asset-93.webp"
+      },
+      {
+        "id": 4,
+        "title": "Body Panels & Repairs",
+        "image": "/images/Asset-95.webp"
+      },
+      {
+        "id": 5,
+        "title": "Axles",
+        "image": "/images/Asset-89.webp"
+      },
+      {
+        "id": 6,
+        "title": "Brake Drums",
+        "image": "/images/Asset-88.webp",
+        "description": "Samkara with industrial quality",
+        "items": ["Different sizes", "Excellent materials", "High hardness"]
+      },
+      {
+        "id": 7,
+        "title": "Lighting Systems",
+        "image": "/images/Asset-96.webp",
+        "description": "Samkara with industrial quality",
+        "items": ["Different sizes", "Excellent materials", "High hardness"]
+      },
+      {
+        "id": 8,
+        "title": "Landing Legs",
+        "image": "/images/Asset-94.webp",
+        "description": "Samkara with industrial quality",
+        "items": ["Different sizes", "Excellent materials", "High hardness"]
+      }
+    ]
+  }
+}
