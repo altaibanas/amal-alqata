@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { LanguageProvider } from './context/LanguageContext';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
@@ -81,6 +82,7 @@ function App() {
               <i className="fas fa-arrow-up"></i>
             </button>
           </div>
+          <SpeedInsights />
         </div>
       </LanguageProvider>
     </Router>
