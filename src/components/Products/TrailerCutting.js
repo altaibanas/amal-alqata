@@ -343,7 +343,7 @@ const TrailerCutting = () => {
                 <i className="fas fa-file-invoice"></i>
                 {language === 'ar' ? "طلب كتالوج" : "Request Catalog"}
               </a>
-              <a href="https://wa.me/966552065095" target="_blank"  className="secondary-btn" rel=''>
+              <a href="https://wa.me/966552065095"   className="secondary-btn" rel=''>
                 <i className="fas fa-comments"></i>
                 {language === 'ar' ? "استشارة فنية" : "Technical Consultation"}
               </a>

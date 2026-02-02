@@ -3,13 +3,17 @@ import { useLanguage } from '../../context/LanguageContext';
 import '../../css/Partners.css';
 
 const PartnersSimple = () => {
-  const { language } = useLanguage();
+  const { language, translations } = useLanguage();
   const [isMobile, setIsMobile] = useState(false);
   const trackRef = useRef(null);
   const timeoutRef = useRef(null);
   
-  // بيانات الشركاء مع صور حقيقية
-  const partners = [
+  // جلب بيانات الشركاء من الترجمات
+  const partnersData = translations?.partnersSection || {};
+  const partnersList = partnersData.partnersList || [];
+  
+  // بيانات افتراضية في حال عدم وجود ترجمة
+  const defaultPartners = [
     { 
       id: 1, 
       name: "SINOTRUK",
@@ -35,6 +39,8 @@ const PartnersSimple = () => {
       width: 200
     },
   ];
+
+  const partners = partnersList.length > 0 ? partnersList : defaultPartners;
 
   // إعادة تعيين الحركة
   const resetAnimation = useCallback((mobile) => {
@@ -142,21 +148,28 @@ const PartnersSimple = () => {
     }
     
     return items;
-  }, [isMobile, handleImageError]);
+  }, [isMobile, partners, handleImageError]);
+
+  // دالة مساعدة للحصول على النص بناءً على اللغة
+  const getText = (textObj) => {
+    if (typeof textObj === 'string') return textObj;
+    if (textObj && textObj[language]) return textObj[language];
+    return textObj?.ar || textObj?.en || '';
+  };
 
   return (
     <div className="partners-simple">
       <div className="partners-container">
         {/* العنوان الرئيسي */}
         <h1 className="main-title animated-gear-title">
-          {language === 'ar' ? "شركاءنا" : "Our Partners"}
+          {getText(partnersData.title) || (language === 'ar' ? "شركاءنا" : "Our Partners")}
         </h1>
         
         {/* الوصف */}
         <p className="description">
-          {language === 'ar' 
+          {getText(partnersData.description) || (language === 'ar' 
             ? "نفتخر بشراكتنا مع أبرز الموردين والمصانع العالمية في مجال قطع الغيار"
-            : "We are proud to partner with leading global suppliers and factories in the spare parts industry"}
+            : "We are proud to partner with leading global suppliers and factories in the spare parts industry")}
         </p>
         
         {/* حاوية الشركاء */}

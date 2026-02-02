@@ -3,7 +3,7 @@ import { useLanguage } from '../../context/LanguageContext';
 import '../../css/herocontact.css';
 
 const HeroContact = () => {
-  const { translations, language, isRTL } = useLanguage();
+  const { translations, isRTL } = useLanguage();
 
   useEffect(() => {
     // تأثيرات التمرير

@@ -17,7 +17,7 @@ import './App.css';
 import ChineseTrucks from './components/Products/ChineseTrucks';
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [, setLoading] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {

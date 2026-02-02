@@ -2,13 +2,12 @@ import React from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 
 const BrandsSection = () => {
-  const { translations, language } = useLanguage();
+  const { translations,  } = useLanguage();
 
   return (
     <section id="brands" className="section bg-light">
       <div className="container">
         <div className="section-header fade-in">
-          <span className="section-subtitle">// {translations.brands?.subtitle} //</span>
           <h2 dangerouslySetInnerHTML={{ __html: translations.brands?.title || '' }} />
           <p>{translations.brands?.description}</p>
         </div>

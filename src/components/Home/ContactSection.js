@@ -2,7 +2,7 @@ import React from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 
 const ContactSection = () => {
-  const { translations, language } = useLanguage();
+  const { translations,  } = useLanguage();
 
   return (
     <section id="contact" className="section contact-cta">

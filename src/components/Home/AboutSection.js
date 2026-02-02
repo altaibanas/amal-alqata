@@ -1,8 +1,8 @@
-import React from 'react';
+
 import { useLanguage } from '../../context/LanguageContext';
 
 const AboutSection = () => {
-  const { translations, language } = useLanguage();
+  const { translations,  } = useLanguage();
 
   return (
     <section id="about" className="section">

@@ -5,7 +5,7 @@ import HeroPetro from './HeroPetro';
 import PetroContact from'./PetroContact';
 
 const Petroleum = () => {
-  const { translations, language, isRTL } = useLanguage();
+  const { translations, language,  } = useLanguage();
 
   useEffect(() => {
     const handleScrollAnimations = () => {

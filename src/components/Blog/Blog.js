@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { useLanguage } from '../../context/LanguageContext';
 import HeroBlog from './HeroBlog'; // سننشئ هذا المكون لاحقًا
 import '../../css/blog.css';
 import RequestPrices from '../RequestPrices'
 
 
 const Blog = () => {
-  const { translations, language, isRTL } = useLanguage();
-  const [articles, setArticles] = useState([]);
+
+  const [, setArticles] = useState([]);
   
   // في حالة حقيقية، هنا نستدعي API لجلب المقالات
   useEffect(() => {
@@ -66,9 +65,7 @@ const Blog = () => {
     };
   }, []);
 
-  const createMarkup = (html) => {
-    return { __html: html };
-  };
+ 
 
   return (
     <>

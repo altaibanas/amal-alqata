@@ -2,7 +2,7 @@ import React from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 
 const ValuesSection = () => {
-  const { translations, language } = useLanguage();
+  const { translations,  } = useLanguage();
 
   return (
     <section id="values" className="section bg-light">

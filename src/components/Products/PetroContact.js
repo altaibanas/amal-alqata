@@ -37,12 +37,7 @@ const PetroContact = () => {
       observer.observe(sectionRef.current);
     }
 
-    return () => {
-      window.removeEventListener('scroll', handleScrollAnimations);
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
-      }
-    };
+   
   }, []);
 
   return (

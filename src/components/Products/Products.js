@@ -1,11 +1,10 @@
 import React, { useEffect } from 'react';
-import { useLanguage } from '../../context/LanguageContext';
 import HeroProducts from './HeroProducts';
 import ProductsSection from '../Home/ProductsSection'
 import RequestPrices from '../RequestPrices'
 
 const Products = () => {
-  const { translations,  } = useLanguage();
+
 
   useEffect(() => {
     // تأثيرات التمرير

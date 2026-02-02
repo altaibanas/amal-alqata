@@ -3,7 +3,7 @@ import { useLanguage } from '../../context/LanguageContext';
 import '../../css/heroAbout.css'
 
 const HeroAbout = () => {
-  const { translations, language, isRTL } = useLanguage();
+  const { translations, isRTL } = useLanguage();
 
   useEffect(() => {
     // تأثيرات التمرير
@@ -62,9 +62,7 @@ const HeroAbout = () => {
     };
   }, []);
 
-  const createMarkup = (html) => {
-    return { __html: html };
-  };
+ 
 
   return (
     <main className={`about-hero-main ${isRTL ? 'about-hero-rtl' : 'about-hero-ltr'}`}>

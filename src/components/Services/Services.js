@@ -26,103 +26,6 @@ const Services = () => {
     };
   }, []);
 
-  // دالة لاستبدال placeholders في النصوص
-  const replacePlaceholders = (text, replacements) => {
-    if (!text) return '';
-    
-    let result = text;
-    Object.entries(replacements).forEach(([key, value]) => {
-      result = result.replace(`{{${key}}}`, value);
-    });
-    return result;
-  };
-
-  // دالة لاستخراج آخر كلمتين من اسم القطاع
-  const extractSectorKeywords = (sectorName) => {
-    const words = sectorName.split(' ');
-    return words.slice(-2).join(' ');
-  };
-
-  // دالة لتحويل الأيقونات إلى Font Awesome
-  const getIconClassName = (icon) => {
-    // إذا كانت الأيقونة تحتوي على رمز تعبيري، نستبدلها بـ Font Awesome
-    if (!icon) return 'fas fa-cog'; // أيقونة افتراضية
-    
-    
-   
-    // إذا كانت الأيقونة بالفعل من Font Awesome
-    if (icon.includes('fa-')) {
-      return icon;
-    }
-    
-    // إذا كانت الكلمة تشير إلى أيقونة محددة
-    if (icon.toLowerCase().includes('truck')) return 'fas fa-truck';
-    if (icon.toLowerCase().includes('warehouse') || icon.includes('🏭')) return 'fas fa-warehouse';
-    if (icon.toLowerCase().includes('contract') || icon.includes('📄')) return 'fas fa-file-contract';
-    if (icon.toLowerCase().includes('cold') || icon.includes('❄️')) return 'fas fa-snowflake';
-    if (icon.toLowerCase().includes('oil')) return 'fas fa-oil-can';
-    if (icon.toLowerCase().includes('hospital') || icon.includes('🏥')) return 'fas fa-hospital';
-    if (icon.toLowerCase().includes('retail') || icon.includes('🏬')) return 'fas fa-store';
-    if (icon.toLowerCase().includes('food') || icon.includes('🍽️')) return 'fas fa-utensils';
-    if (icon.toLowerCase().includes('agriculture') || icon.includes('🌱')) return 'fas fa-seedling';
-    if (icon.toLowerCase().includes('water') || icon.includes('💧')) return 'fas fa-tint';
-    if (icon.toLowerCase().includes('environment') || icon.includes('🍃')) return 'fas fa-leaf';
-    if (icon.toLowerCase().includes('energy') || icon.includes('⚛️')) return 'fas fa-atom';
-    if (icon.toLowerCase().includes('mining') || icon.includes('💎')) return 'fas fa-gem';
-    
-    return 'fas fa-cog'; // أيقونة افتراضية
-  };
-
-  // دالة لاسترجاع المميزات الخاصة بكل قطاع
-const getSectorFeatures = (sectorName) => {
-  if (sectorName.includes('البترولية') || sectorName.includes('Oil')) {
-    return [
-      'أنظمة تحكم متكاملة',
-      'صيانة دورية وتفقد',
-      'قطع غيار أصلية',
-      'دعم فني متخصص'
-    ];
-  } else if (sectorName.includes('المقاولات') || sectorName.includes('Construction')) {
-    return [
-      'معدات ثقيلة متخصصة',
-      'قطع غيار أصلية للمعدات',
-      'صيانة وقائية',
-      'خدمات سريعة 24/7'
-    ];
-  } else if (sectorName.includes('حكومية') || sectorName.includes('Government')) {
-    return [
-      'شهادات معتمدة',
-      'توثيق كامل للعمليات',
-      'تقارير فنية مفصلة',
-      'التزام بمعايير الجودة'
-    ];
-  } else if (sectorName.includes('ورش') || sectorName.includes('Workshop')) {
-    return [
-      'أدوات ومعدات متخصصة',
-      'تدريب الفنيين',
-      'حلول مخصصة',
-      'دعم تقني مستمر'
-    ];
-  } else {
-    return [
-      'جودة عالية',
-      'تسليم في الوقت المحدد',
-      'دعم فني متكامل',
-      'أسعار تنافسية'
-    ];
-  }
-};
-
-// دالة لتحويل الأيقونات emoji إلى صور إذا لزم الأمر
-const renderSectorIcon = (icon) => {
-  // إذا كان أيقونة emoji
-  if (icon && icon.length <= 3) {
-    return <span className="emoji-icon">{icon}</span>;
-  }
-  // إذا كان اسم أيقونة font awesome
-  return <i className={`fas ${icon}`}></i>;
-};
-
   return (
     <>
       {/* صفحة العنوان */}

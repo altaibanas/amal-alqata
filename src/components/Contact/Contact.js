@@ -64,7 +64,7 @@ const Contact = () => {
   const validateForm = () => {
     const errors = {};
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    const phoneRegex = /^[\+]?[0-9\s\-\(\)]+$/;
+    const phoneRegex = / /;
 
     if (!formData.name.trim()) {
       errors.name = language === 'ar' ? 'الرجاء إدخال الاسم الكامل' : 'Please enter full name';
@@ -139,12 +139,7 @@ const Contact = () => {
     }
   };
 
-  const openGoogleMaps = () => {
-    const address = language === 'ar' 
-      ? 'الرياض، السعودية' 
-      : 'Riyadh, Saudi Arabia';
-    window.open(`https://maps.google.com/?q=${encodeURIComponent(address)}`, '_blank');
-  };
+ 
 
   return (
     <>
