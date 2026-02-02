@@ -167,29 +167,6 @@ const HeroProducts = () => {
                   "نحرص على توفير قطع الغيار التي تفي بأعلى معايير الجودة العالمية، مما يضمن أداءً متميزًا وعمرًا افتراضيًا أطول."}
               </p>
               
-              <div className="products-card-stats">
-                {translations.productsPageh?.heroProducts?.stats?.map((stat, index) => (
-                  <div key={index} className="product-stat">
-                    <div className="product-stat-number">{stat.value}</div>
-                    <div className="product-stat-label">{stat.label}</div>
-                  </div>
-                )) || (
-                  <>
-                    <div className="product-stat">
-                      <div className="product-stat-number">100%</div>
-                      <div className="product-stat-label">جودة أصلية</div>
-                    </div>
-                    <div className="product-stat">
-                      <div className="product-stat-number">5000+</div>
-                      <div className="product-stat-label">منتج مختلف</div>
-                    </div>
-                    <div className="product-stat">
-                      <div className="product-stat-number">24h</div>
-                      <div className="product-stat-label">أقصى وقت للتوصيل</div>
-                    </div>
-                  </>
-                )}
-              </div>
               
               <div className="products-card-footer">
                 <div className="quality-badge">
