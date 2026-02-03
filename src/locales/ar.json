@@ -2246,6 +2246,7 @@
     }
   },
 
+ 
   "chineTrucksQata": {
     "title": "أنواع القطع المتوفرة",
     "noData": "جاري تحميل البيانات...",
@@ -2256,110 +2257,109 @@
         "items": [
           {
             "text": "بساتم",
-            "icon": "fas fa-car-side"
+            "icon": "fas fa-piston"
           },
           {
             "text": "رنقات",
-            "icon": "fas fa-car"
-          },
-          {
-            "text": " رؤوس سلندر",
             "icon": "fas fa-cogs"
           },
           {
+            "text": "رؤوس سلندر",
+            "icon": "fas fa-cube"
+          },
+          {
             "text": "تيربو",
-            "icon": "fas fa-screwdriver"
+            "icon": "fas fa-turbine"
           }
         ]
       },
       {
         "title": "أنظمة التبريد",
-        "icon": "fas fa-cogs",
+        "icon": "fas fa-fan",
         "items": [
           {
             "text": "راديتر",
-            "icon": "fas fa-tools"
+            "icon": "fas fa-temperature-high"
           },
           {
             "text": "مروحة",
-            "icon": "fas fa-braille"
+            "icon": "fas fa-fan"
           },
           {
             "text": "بلف حرارة",
             "icon": "fas fa-thermometer-half"
           }
-         
         ]
       },
       {
         "title": "أنظمة الكهرباء",
-        "icon": "fas fa-chair",
+        "icon": "fas fa-bolt",
         "items": [
           {
             "text": "دينمو",
-            "icon": "fas fa-couch"
+            "icon": "fas fa-car-battery"
           },
           {
             "text": "حساسات",
-            "icon": "fas fa-bolt"
+            "icon": "fas fa-microchip"
           },
           {
             "text": "كمبيوتر",
-            "icon": "fas fa-bolt"
+            "icon": "fas fa-laptop"
           },
           {
-            "text": " أسلاك",
+            "text": "أسلاك",
             "icon": "fas fa-bolt"
           }
         ]
       },
       {
         "title": "أنظمة التعليق والفرامل",
-        "icon": "fas fa-microchip",
+        "icon": "fas fa-car-side",
         "items": [
           {
             "text": "فحمات",
-            "icon": "fas fa-desktop"
+            "icon": "fas fa-circle"
           },
           {
             "text": "هوبات",
-            "icon": "fas fa-broadcast-tower"
+            "icon": "fas fa-cog"
           },
           {
             "text": "مسامير",
-            "icon": "fas fa-broadcast-tower"
+            "icon": "fas fa-screwdriver"
           },
           {
             "text": "مساعدين",
-            "icon": "fas fa-broadcast-tower"
+            "icon": "fas fa-car-side"
           }
         ]
       },
       {
         "title": "قطع داخلية وخارجية",
-        "icon": "fas fa-microchip",
+        "icon": "fas fa-car",
         "items": [
           {
-            "text": "كبوت ",
-            "icon": "fas fa-desktop"
+            "text": "كبوت",
+            "icon": "fas fa-car"
           },
           {
             "text": "مصابيح",
-            "icon": "fas fa-broadcast-tower"
+            "icon": "fas fa-lightbulb"
           },
           {
             "text": "مقاعد",
-            "icon": "fas fa-broadcast-tower"
+            "icon": "fas fa-chair"
           },
           {
             "text": "طبلون",
-            "icon": "fas fa-broadcast-tower"
+            "icon": "fas fa-tachometer-alt"
           }
         ]
       }
     ]
   },
-  
+
   "servicesPages": {
     "specializedServices": {
       "title": "خدماتنا المتخصصة",

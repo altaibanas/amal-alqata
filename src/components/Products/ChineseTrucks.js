@@ -337,7 +337,7 @@ brands: translations.chineseTrucksPage?.brands || [
               </a>
               <a href='contact' className="secondary-btn">
                 <i className="fas fa-list"></i>
-                {language === 'ar' ? "طلب قائمة أسعار" : "Request Price List"}
+                {language === 'ar' ? "طلب عرض سعر " : "request a quote"}
               </a>
             </div>
           </div>

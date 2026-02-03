@@ -557,7 +557,7 @@
 
 .outline-btn {
   background: transparent;
-  color: #2D3436;
+  color: #f6f9f9;
   border: 2px solid #2D3436;
 }
 
@@ -670,9 +670,10 @@
   .applications-section,
   .cta-section,
   .features-section {
-    padding: 30px 20px;
+    padding: 30px 30px;
   }
-  
+
+
   .cta-content h2 {
     font-size: 1.5rem;
   }

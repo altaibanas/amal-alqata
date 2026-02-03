@@ -138,9 +138,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 140px;
-  min-width: 200px;
-  padding: 25px 40px;
   background: white;
   border-radius: 16px;
   border: 1px solid #e2e8f0;
@@ -185,11 +182,7 @@
     overflow: visible;
   }
   
-  .partner-item {
-    height: 160px;
-    min-width: 220px;
-    padding: 30px 50px;
-  }
+ 
   
   .partner-logo {
     max-height: 100px;
@@ -224,12 +217,7 @@
     overflow: hidden;
   }
   
-  .partner-item {
-    height: 120px;
-    min-width: 160px;
-    padding: 20px 30px;
-  }
-  
+
   .partner-logo {
     max-height: 100px;
   }
@@ -281,11 +269,7 @@
     font-size: 16px;
   }
   
-  .partner-item {
-    height: 100px;
-    min-width: 140px;
-    padding: 15px 25px;
-  }
+ 
   
   .partner-logo {
     max-height: 100px;

@@ -12,6 +12,7 @@ const Header = () => {
   const navigate = useNavigate();
   const dropdownRef = useRef(null);
   const dropdownTimeoutRef = useRef(null);
+  const mobileMenuRef = useRef(null); // إضافة ref لقائمة الجوال
 
   useEffect(() => {
     const handleScroll = () => {
@@ -42,11 +43,29 @@ const Header = () => {
     };
   }, []);
 
+  // إغلاق قائمة الجوال عند النقر خارجها
+  useEffect(() => {
+    const handleClickOutsideMobileMenu = (event) => {
+      if (
+        mobileMenuOpen && 
+        mobileMenuRef.current && 
+        !mobileMenuRef.current.contains(event.target) &&
+        !event.target.closest('#menuToggle')
+      ) {
+        setMobileMenuOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutsideMobileMenu);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutsideMobileMenu);
+    };
+  }, [mobileMenuOpen]);
+
   // قائمة الروابط الأساسية
   const navItems = [
     { id: 'home', path: '/', icon: 'fa-home', text: translations.nav?.home },
     { id: 'about', path: '/about', icon: 'fa-info-circle', text: translations.nav?.about },
-    // { id: 'products', path: '/products', icon: 'fa-info-circle', text: translations.nav?.products },
     { id: 'services', path: '/services', icon: 'fa-handshake', text: translations.nav?.sevices },
     { id: 'blog', path: '/blog', icon: 'fa-award', text: translations.nav?.blog },
     { id: 'contact', path: '/contact', icon: 'fa-envelope', text: translations.nav?.contact }
@@ -165,14 +184,14 @@ const Header = () => {
             {/* قائمة المنتجات المنسدلة */}
             <div 
               ref={dropdownRef}
-              className="nav-item dropdown"
+              className={`nav-item dropdown ${productsDropdownOpen ? 'dropdown-open' : ''}`}
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
               style={{ direction: isRTL ? 'rtl' : 'ltr' }}
             >
               <NavLink
                 to="/products"
-                className={`nav-link ${isProductsActive() ? 'active' : ''}`}
+                className={`nav-link ${isProductsActive() ? 'active' : ''} ${productsDropdownOpen ? 'dropdown-toggle-active' : ''}`}
                 onClick={handleProductsClick}
                 onMouseEnter={() => {
                   if (window.innerWidth > 768) {
@@ -181,7 +200,7 @@ const Header = () => {
                 }}
               >
                 {translations.nav?.products}
-                <i className={`fas ${getArrowIcon(productsDropdownOpen)}`} 
+                <i className={`fas ${getArrowIcon(productsDropdownOpen)} dropdown-arrow`} 
                    style={{ 
                      marginRight: language === 'ar' ? '5px' : '0', 
                      marginLeft: language === 'en' ? '5px' : '0',
@@ -269,6 +288,7 @@ const Header = () => {
         {/* قائمة الجوال */}
         <div 
           id="mobileMenu" 
+          ref={mobileMenuRef} 
           className={`mobile-menu ${mobileMenuOpen ? 'active' : ''}`}
           style={{ direction: isRTL ? 'rtl' : 'ltr' }}
         >
@@ -297,13 +317,13 @@ const Header = () => {
             </NavLink>
             
             {/* قائمة المنتجات في الجوال */}
-            <div className="mobile-products-item">
+            <div className={`mobile-dropdown ${mobileProductsOpen ? 'dropdown-open' : ''}`}>
               <div 
-                className={`mobile-products-toggle ${isProductsActive() ? 'active' : ''}`}
+                className={`mobile-dropdown-toggle ${isProductsActive() ? 'active' : ''}`}
                 style={{ 
                   direction: isRTL ? 'rtl' : 'ltr',
                   textAlign: language === 'ar' ? 'right' : 'left',
-                  justifyContent: language === 'ar' ? 'space-between' : 'space-between',
+                  justifyContent: 'space-between',
                   display: 'flex',
                   alignItems: 'center',
                   width: '100%',
@@ -320,11 +340,11 @@ const Header = () => {
                   <i className="fas fa-box-open"></i>
                   {translations.nav?.products}
                 </div>
-                <i className={`fas ${getMobileArrowIcon()}`}></i>
+                <i className={`fas ${getMobileArrowIcon()} dropdown-arrow`}></i>
               </div>
               {mobileProductsOpen && (
                 <div 
-                  className="mobile-products-submenu"
+                  className="mobile-dropdown-menu"
                   style={{ 
                     paddingRight: language === 'ar' ? '30px' : '15px',
                     paddingLeft: language === 'en' ? '30px' : '15px',
@@ -332,7 +352,7 @@ const Header = () => {
                   }}
                 >
                   <div
-                    className={`mobile-submenu-item ${location.pathname === '/products' ? 'active-submenu' : ''}`}
+                    className={`mobile-dropdown-item ${location.pathname === '/products' ? 'active-submenu' : ''}`}
                     onClick={() => {
                       handleSubmenuItemClick('/products');
                     }}
@@ -355,7 +375,7 @@ const Header = () => {
                   {productsSubmenu.map((item) => (
                     <div
                       key={item.id}
-                      className={`mobile-submenu-item ${location.pathname === item.path ? 'active-submenu' : ''}`}
+                      className={`mobile-dropdown-item ${location.pathname === item.path ? 'active-submenu' : ''}`}
                       onClick={() => {
                         handleSubmenuItemClick(item.path);
                       }}

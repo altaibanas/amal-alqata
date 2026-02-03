@@ -14,7 +14,7 @@
     "home": "Home",
     "about": "About Us",
     "products": "Our Products",
-    "services":"our Services",
+    "sevices":"our Services",
     "partners": "Our Partners",
     "blog": "Blog",
     "contact": "Contact Us",
@@ -2221,55 +2221,55 @@
         "items": [
           {
             "text": "Pistons",
-            "icon": "fas fa-car-side"
+            "icon": "fas fa-piston"
           },
           {
             "text": "Piston Rings",
-            "icon": "fas fa-car"
-          },
-          {
-            "text": "Cylinder Heads",
             "icon": "fas fa-cogs"
           },
           {
+            "text": "Cylinder Heads",
+            "icon": "fas fa-cube"
+          },
+          {
             "text": "Turbochargers",
-            "icon": "fas fa-screwdriver"
+            "icon": "fas fa-turbine"
           }
         ]
       },
       {
         "title": "Cooling Systems",
-        "icon": "fas fa-cogs",
+        "icon": "fas fa-fan",
         "items": [
           {
             "text": "Radiators",
-            "icon": "fas fa-tools"
+            "icon": "fas fa-temperature-high"
           },
           {
             "text": "Fans",
-            "icon": "fas fa-braille"
+            "icon": "fas fa-fan"
           },
           {
             "text": "Thermostats",
-            "icon": "fas fa-car-battery"
+            "icon": "fas fa-thermometer-half"
           }
         ]
       },
       {
         "title": "Electrical Systems",
-        "icon": "fas fa-chair",
+        "icon": "fas fa-bolt",
         "items": [
           {
             "text": "Alternators",
-            "icon": "fas fa-couch"
+            "icon": "fas fa-car-battery"
           },
           {
             "text": "Sensors",
-            "icon": "fas fa-bolt"
+            "icon": "fas fa-microchip"
           },
           {
             "text": "Control Units (ECUs)",
-            "icon": "fas fa-bolt"
+            "icon": "fas fa-laptopt"
           },
           {
             "text": "Wiring Harnesses",
@@ -2279,45 +2279,45 @@
       },
       {
         "title": "Suspension & Brake Systems",
-        "icon": "fas fa-microchip",
+        "icon": "fas fa-car-side",
         "items": [
           {
             "text": "Brake Pads",
-            "icon": "fas fa-desktop"
+            "icon": "fas fa-circle"
           },
           {
             "text": "Brake Discs (Rotors)",
-            "icon": "fas fa-broadcast-tower"
+            "icon": "fas fa-cog"
           },
           {
             "text": "Wheel Bolts",
-            "icon": "fas fa-broadcast-tower"
+            "icon": "fas fa-screwdriver"
           },
           {
             "text": "Shock Absorbers",
-            "icon": "fas fa-broadcast-tower"
+            "icon": "fas fa-car-side"
           }
         ]
       },
       {
         "title": "Interior & Exterior Parts",
-        "icon": "fas fa-microchip",
+        "icon": "fas fa-car",
         "items": [
           {
             "text": "Hoods",
-            "icon": "fas fa-desktop"
+            "icon": "fas fa-car"
           },
           {
             "text": "Headlights",
-            "icon": "fas fa-broadcast-tower"
+            "icon": "fas fa-lightbulb"
           },
           {
             "text": "Seats",
-            "icon": "fas fa-broadcast-tower"
+            "icon": "fas fa-chair"
           },
           {
             "text": "Dashboards",
-            "icon": "fas fa-broadcast-tower"
+            "icon": "fas fa-tachometer-alt"
           }
         ]
       }

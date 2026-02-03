@@ -15,7 +15,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #e63946, #4cc9f0, #4361ee);
+  background: linear-gradient(90deg, #4361ee, #0d1b3e);
   z-index: 1;
 }
 
@@ -50,7 +50,6 @@
   transform: translateX(-50%);
   width: 100px;
   height: 4px;
-  background: linear-gradient(90deg, #e63946, #4361ee);
   border-radius: 2px;
 }
 
@@ -148,7 +147,7 @@
   transform: translateX(-50%);
   width: 80px;
   height: 3px;
-  background: linear-gradient(90deg, #e63946, #4361ee);
+  /* background: linear-gradient(90deg, #e63946, #4361ee); */
   border-radius: 2px;
 }
 
