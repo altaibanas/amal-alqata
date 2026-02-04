@@ -73,7 +73,7 @@ html {
 }
 
 body {
-    font-family: 'Almarai', sans-serif;
+     font-family: 'Montserrat', sans-serif;  
     background-color: var(--light);
     color: var(--dark);
     line-height: 1.6;
@@ -2820,15 +2820,15 @@ img {
 }
 
 .value-card:nth-child(2) .value-icon {
-    background: linear-gradient(135deg, var(--info) 0%, #60a5fa 100%);
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
 }
 
 .value-card:nth-child(3) .value-icon {
-    background: linear-gradient(135deg, var(--success) 0%, #34d399 100%);
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
 }
 
 .value-card:nth-child(4) .value-icon {
-    background: linear-gradient(135deg, var(--purple) 0%, #a78bfa 100%);
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
 }
 
 .value-card h3 {
@@ -2975,7 +2975,7 @@ img {
   .about-content .lead {
     font-size: 1rem;
     text-align: justify;
-    padding-right: 20px;
+    padding-right: 25px;
   }
   
   .features-grid {
@@ -5511,7 +5511,7 @@ background: var(--gradient-dark);
   }
   
   .btn {
-    width: 260px;
+    width: 183px;
     justify-content: center;
   }
 }
