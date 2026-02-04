@@ -1995,42 +1995,42 @@
         "id": 1,
         "title": "Pressure Relief Valves",
         "icon": "fas fa-tachometer-alt",
-        "color": "#0d1b3e",
+        "color": "#1e3a8a",
         "description": "Pressure control systems to maintain safety and prevent explosions"
       },
       {
         "id": 2,
         "title": "Hydraulic Loading Arms",
         "icon": "fas fa-cogs",
-        "color": "#0d1b3e",
+        "color": "#1e3a8a",
         "description": "Advanced hydraulic systems for safe petroleum material transfer"
       },
       {
         "id": 3,
         "title": "Loading/Unloading Couplings",
         "icon": "fas fa-link",
-        "color": "#0d1b3e",
+        "color": "#1e3a8a",
         "description": "Certified API couplings for leak-free fuel transfer"
       },
       {
         "id": 4,
         "title": "Heavy- and Light-Duty Fuel Nozzles",
         "icon": "fas fa-gas-pump",
-        "color": "#0d1b3e",
+        "color": "#1e3a8a",
         "description": "Heavy and light nozzles designed for different fuel types"
       },
       {
         "id": 5,
         "title": "Filters & Flow Meters",
         "icon": "fas fa-filter",
-        "color": "#0d1b3e",
+        "color": "#1e3a8a",
         "description": "Precise filtration and measurement systems for fuel quality monitoring"
       },
       {
         "id": 6,
         "title": "High-Temperature, High-Pressure Fuel Hoses",
         "icon": "fas fa-oil-can",
-        "color": "#0d1b3e",
+        "color": "#1e3a8a",
         "description": "Hoses designed to withstand high temperatures and pressure"
       }
     ],
@@ -2039,25 +2039,25 @@
         "id": 1,
         "title": "Oil & Gas Storage Facilities",
         "icon": "fas fa-warehouse",
-        "color": "#0d1b3e"
+        "color": "#1e3a8a"
       },
       {
         "id": 2,
         "title": "Petroleum Distribution Facilities",
         "icon": "fas fa-truck-moving",
-        "color": "#0d1b3e"
+        "color": "#1e3a8a"
       },
       {
         "id": 3,
         "title": "Loading Stations",
         "icon": "fas fa-gas-pump",
-        "color": "#0d1b3e"
+        "color": "#1e3a8a"
       },
       {
         "id": 4,
         "title": "Fuel Tankers",
         "icon": "fas fa-truck",
-        "color": "#0d1b3e"
+        "color": "#1e3a8a"
       }
     ],
     "advantages": [
@@ -2065,25 +2065,25 @@
         "id": 1,
         "title": "Certified by International Bodies",
         "icon": "fas fa-certificate",
-        "color": "#0d1b3e"
+        "color": "#1e3a8a"
       },
       {
         "id": 2,
         "title": "Resistant to Harsh Conditions",
         "icon": "fas fa-sun",
-        "color": "#0d1b3e"
+        "color": "#1e3a8a"
       },
       {
         "id": 3,
         "title": "International Specifications",
         "icon": "fas fa-globe",
-        "color": "#0d1b3e"
+        "color": "#1e3a8a"
       },
       {
         "id": 4,
         "title": "Easy Maintenance & Long Lifespan",
         "icon": "fas fa-tools",
-        "color": "#0d1b3e"
+        "color": "#1e3a8a"
       }
     ],
     "stats": {

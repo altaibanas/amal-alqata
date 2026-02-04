@@ -1996,42 +1996,42 @@
         "id": 1,
         "title": "صمامات أمان وضغط",
         "icon": "fas fa-tachometer-alt",
-        "color": "#0d1b3e",
+        "color": "#1e3a8a",
         "description": "أنظمة تحكم في الضغط للحفاظ على السلامة ومنع الانفجارات"
       },
       {
         "id": 2,
         "title": "أذرع تحميل هيدروليكية",
         "icon": "fas fa-cogs",
-        "color": "#0d1b3e",
+        "color": "#1e3a8a",
         "description": "أنظمة هيدروليكية متطورة لنقل المواد البترولية بأمان"
       },
       {
         "id": 3,
         "title": "وصلات التعبئة والتفريغ",
         "icon": "fas fa-link",
-        "color": "#0d1b3e",
+        "color": "#1e3a8a",
         "description": "وصلات API معتمدة لنقل الوقود دون تسرب"
       },
       {
         "id": 4,
         "title": "فوهات تعبئة الوقود الثقيلة والخفيفة",
         "icon": "fas fa-gas-pump",
-        "color": "#0d1b3e",
+        "color": "#1e3a8a",
         "description": "فواهات ثقيلة وخفيفة مصممة لأنواع الوقود المختلفة"
       },
       {
         "id": 5,
         "title": "فلاتر وعدادات تدفق",
         "icon": "fas fa-filter",
-        "color": "#0d1b3e",
+        "color": "#1e3a8a",
         "description": "أنظمة ترشيح وقياس دقيقة لمراقبة جودة الوقود"
       },
       {
         "id": 6,
         "title": "خراطيم وقود مقاومة للحرارة و الضغط العالي",
         "icon": "fas fa-oil-can",
-        "color": "#0d1b3e",
+        "color": "#1e3a8a",
         "description": "خراطيم مصممة لتحمل الحرارة العالية والضغط المرتفع"
       }
     ],
@@ -2040,25 +2040,25 @@
         "id": 1,
         "title": "مستودعات البترول والغاز",
         "icon": "fas fa-warehouse",
-        "color": "#0d1b3e"
+        "color": "#1e3a8a"
       },
       {
         "id": 2,
         "title": "منشآت التوزيع البترولي",
         "icon": "fas fa-truck-moving",
-        "color": "#0d1b3e"
+        "color": "#1e3a8a"
       },
       {
         "id": 3,
         "title": "محطات التعبئة",
         "icon": "fas fa-gas-pump",
-        "color": "#0d1b3e"
+        "color": "#1e3a8a"
       },
       {
         "id": 4,
         "title": "ناقلات الوقود",
         "icon": "fas fa-truck",
-        "color": "#0d1b3e"
+        "color": "#1e3a8a"
       }
     ],
     "advantages": [
@@ -2066,25 +2066,25 @@
         "id": 1,
         "title": "معتمدة من هيئات دولية",
         "icon": "fas fa-certificate",
-        "color": "#0d1b3e"
+        "color": "#1e3a8a"
       },
       {
         "id": 2,
         "title": "مقاومة للظروف الصعبة",
         "icon": "fas fa-sun",
-        "color": "#0d1b3e"
+        "color": "#1e3a8a"
       },
       {
         "id": 3,
         "title": "مواصفات عالمية",
         "icon": "fas fa-globe",
-        "color": "#0d1b3e"
+        "color": "#1e3a8a"
       },
       {
         "id": 4,
         "title": "صيانة سهلة وعمر طويل",
         "icon": "fas fa-tools",
-        "color": "#0d1b3e"
+        "color": "#1e3a8a"
       }
     ],
     "stats": {

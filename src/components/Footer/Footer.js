@@ -51,7 +51,7 @@ const Footer = () => {
     },
     { 
       id: 'services', 
-      text: translations.nav?.services || 'الخدمات',
+      text: translations.nav?.sevices  || 'الخدمات',
       path: '/services'
     },
     { 
