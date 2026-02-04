@@ -140,6 +140,7 @@ const Home = () => {
         </div>
       </section>
 
+      
       {/* قسم نبذة عن الشركة */}
       <AboutSection />
 

@@ -73,7 +73,7 @@ html {
 }
 
 body {
-    font-family: 'Almarai', sans-serif;
+     font-family: 'Montserrat', sans-serif;  
     background-color: var(--light);
     color: var(--dark);
     line-height: 1.6;
@@ -5596,7 +5596,7 @@ background: var(--gradient-dark);
   }
   
   .btn {
-    min-width: 170px;
+    min-width: 227px;
   }
   
   /* تحسين الخطوط للغة العربية */

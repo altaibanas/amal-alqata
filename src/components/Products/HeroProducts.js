@@ -145,7 +145,7 @@ const HeroProducts = () => {
                 <i className="fas fa-box-open"></i>
                 {translations.productsPageh?.heroProducts?.ctaPrimary || "تصفح الكتالوج"}
               </a>
-              <a href="#contact" className="btn btn-secondary-products">
+              <a href="contact" className="btn btn-secondary-products">
                 <i className="fas fa-headset"></i>
                 {translations.productsPageh?.heroProducts?.ctaSecondary || "استشارة مجانية"}
               </a>

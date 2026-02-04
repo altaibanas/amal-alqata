@@ -14,6 +14,14 @@ const Header = () => {
   const dropdownTimeoutRef = useRef(null);
   const mobileMenuRef = useRef(null); // إضافة ref لقائمة الجوال
 
+  // دالة للانتقال إلى أعلى الصفحة
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // يمكنك تغييرها إلى 'auto' إذا أردت الانتقال الفوري
+    });
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 100);
@@ -129,6 +137,7 @@ const Header = () => {
     } else { // للشاشات الكبيرة
       navigate('/products');
       setProductsDropdownOpen(false);
+      scrollToTop(); // الانتقال إلى بداية الصفحة
     }
   };
 
@@ -138,7 +147,10 @@ const Header = () => {
     setProductsDropdownOpen(false);
     setMobileProductsOpen(false);
     setMobileMenuOpen(false);
+    scrollToTop(); // الانتقال إلى بداية الصفحة
   };
+
+  
 
   // التحقق إذا كان الرابط نشط (صفحة منتجات رئيسية أو فرعية)
   const isProductsActive = () => {
@@ -153,7 +165,7 @@ const Header = () => {
       <div className="container">
         <div className="nav-container">
           {/* الشعار */}
-          <NavLink to="/" className="logo">
+          <NavLink to="/" className="logo" onClick={(e) => { scrollToTop(); }}>
             <div className="logo-icon">
               <img src='images/logo.webp' alt='' />
             </div>
@@ -169,6 +181,7 @@ const Header = () => {
               to="/"
               className={({ isActive }) => isActive ? 'active' : ''}
               end
+              onClick={(e) => { scrollToTop(); }}
             >
               {translations.nav?.home}
             </NavLink>
@@ -177,6 +190,7 @@ const Header = () => {
             <NavLink
               to="/about"
               className={({ isActive }) => isActive ? 'active' : ''}
+              onClick={(e) => { scrollToTop(); }}
             >
               {translations.nav?.about}
             </NavLink>
@@ -247,6 +261,7 @@ const Header = () => {
                 key={item.id}
                 to={item.path}
                 className={({ isActive }) => isActive ? 'active' : ''}
+                onClick={(e) => { scrollToTop(); }}
               >
                 {item.text}
               </NavLink>
@@ -258,7 +273,10 @@ const Header = () => {
             href="/شركة-أعمال-القطع،-الملف-التعريفي (1).pdf" 
             className="nav-phone" 
             download={language === 'ar' ? "الملف التعريفي.pdf" : "Company-Profile.pdf"}
-            onClick={() => setMobileMenuOpen(false)}
+            onClick={() => {
+              setMobileMenuOpen(false);
+              scrollToTop(); // الانتقال إلى بداية الصفحة عند تحميل الملف
+            }}
             style={{ direction: isRTL ? 'rtl' : 'ltr' }}
           >
             <i className="fas fa-file-pdf"></i>
@@ -266,7 +284,10 @@ const Header = () => {
           </a>
 
           {/* مفتاح تبديل اللغة */}
-          <button className="language-switcher" onClick={toggleLanguage}>
+          <button className="language-switcher" onClick={() => {
+            toggleLanguage();
+            scrollToTop(); // الانتقال إلى بداية الصفحة عند تغيير اللغة
+          }}>
             <i className="fas fa-globe"></i>
             {language === 'ar' ? 'EN' : 'العربية'}
           </button>
@@ -275,7 +296,10 @@ const Header = () => {
           <button 
             id="menuToggle" 
             className="menu-toggle"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            onClick={() => {
+              setMobileMenuOpen(!mobileMenuOpen);
+              scrollToTop(); // الانتقال إلى بداية الصفحة عند فتح/إغلاق القائمة
+            }}
             aria-label={mobileMenuOpen ? 
               (language === 'ar' ? 'إغلاق القائمة' : 'Close menu') : 
               (language === 'ar' ? 'فتح القائمة' : 'Open menu')
@@ -298,7 +322,10 @@ const Header = () => {
               to="/"
               className={({ isActive }) => isActive ? 'active' : ''}
               end
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={() => {
+                setMobileMenuOpen(false);
+                scrollToTop();
+              }}
               style={{ direction: isRTL ? 'rtl' : 'ltr' }}
             >
               <i className="fas fa-home"></i>
@@ -309,7 +336,10 @@ const Header = () => {
             <NavLink
               to="/about"
               className={({ isActive }) => isActive ? 'active' : ''}
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={() => {
+                setMobileMenuOpen(false);
+                scrollToTop();
+              }}
               style={{ direction: isRTL ? 'rtl' : 'ltr' }}
             >
               <i className="fas fa-info-circle"></i>
@@ -405,7 +435,10 @@ const Header = () => {
                 key={item.id}
                 to={item.path}
                 className={({ isActive }) => isActive ? 'active' : ''}
-                onClick={() => setMobileMenuOpen(false)}
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  scrollToTop();
+                }}
                 style={{ direction: isRTL ? 'rtl' : 'ltr' }}
               >
                 <i className={`fas ${item.icon}`}></i>
@@ -417,7 +450,10 @@ const Header = () => {
               href="/شركة-أعمال-القطع،-الملف-التعريفي (1).pdf" 
               className="mobile-phone" 
               download={language === 'ar' ? "الملف التعريفي.pdf" : "Company-Profile.pdf"}
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={() => {
+                setMobileMenuOpen(false);
+                scrollToTop();
+              }}
               style={{ direction: isRTL ? 'rtl' : 'ltr' }}
             >
               <i className="fas fa-file-pdf"></i>
@@ -425,7 +461,10 @@ const Header = () => {
             </a>
             
             {/* تبديل اللغة في الجوال */}
-            <button className="mobile-language-switcher" onClick={toggleLanguage}>
+            <button className="mobile-language-switcher" onClick={() => {
+              toggleLanguage();
+              scrollToTop();
+            }}>
               <i className="fas fa-globe"></i>
               {language === 'ar' ? 'English' : 'العربية'}
             </button>
